@@ -4,5 +4,6 @@
 .jekyll*
 .sass-cache/
 _site/
+venv/
 node_modules
 output.log
