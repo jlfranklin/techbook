@@ -1,6 +1,6 @@
-site_name: CivicActions Handbook
-repo_url: https://github.com/CivicActions/handbook/
-site_url: https://handbook.civicactions.com/en/latest/
+site_name: Bixal Techbook
+repo_url: https://github.com/Bixal/handbook/
+site_url: https://techbook.bixal.com/en/latest/
 theme:
     name: readthedocs
     highlightjs: true
