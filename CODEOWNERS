@@ -3,16 +3,9 @@
 # Order is important. The last matching pattern has the most precedence.
 
 # These owners will be the default owners for everything in the repo.
-# * @CivicActions/civicactions-team
+# * @Bixal/@todo-team
 
 # These will automatically assign PRs that touch files in these directories to their respective teams for review.
-docs/00-contributing/* @CivicActions/docs
-docs/01-welcome-to-civicactions/* @CivicActions/civicactions-team
-docs/02-about-us/* @CivicActions/civicactions-team
-docs/03-policies/* @CivicActions/management  @CivicActions/docs
-docs/03-policies/security.md @CivicActions/management  @CivicActions/docs @openprivacy
-docs/05-engineering/* @CivicActions/engineering  @CivicActions/docs
-docs/06-project-management/* @CivicActions/pm  @CivicActions/docs
-docs/07-sales-and-marketing/* @CivicActions/civicactions-team  @CivicActions/docs
-docs/08-hr-admin/* @CivicActions/management  @CivicActions/docs
-docs/09-security/* @CivicActions/security  @CivicActions/docs
+docs/00-engineering/* @Bixal/@todo-team  @Bixal/docs
+docs/01-security/* @Bixal/@todo-team  @Bixal/docs
+docs/02-help-desk/* @Bixal/@todo-team  @Bixal/docs
