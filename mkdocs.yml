@@ -1,6 +1,6 @@
 site_name: Bixal Techbook
-repo_url: https://github.com/Bixal/handbook/
-site_url: https://techbook.bixal.com/en/latest/
+repo_url: https://github.com/Bixal/techbook/
+site_url: https://bixal-techbook.bixal.com/en/latest/
 theme:
     name: readthedocs
     highlightjs: true

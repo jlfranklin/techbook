@@ -1,4 +1,4 @@
-# CivicActions Common Contingency Plan
+# Bixal Common Contingency Plan
 
 ## Table of Contents
 
@@ -25,11 +25,11 @@
 
 ### Applicability
 
-**Note:**  This Contingency Plan applies only to systems for which CivicActions has negotiated and defined Incident Response/Contingency Plan (IRCP) operations. Each IRCP-managed system will have a specific, tailored version of this Contingency Plan or in some cases a completely unique Contingency Plan will be developed. All CivicActions employees are aware of the procedures outlined herein.
+**Note:**  This Contingency Plan applies only to systems for which Bixal has negotiated and defined Incident Response/Contingency Plan (IRCP) operations. Each IRCP-managed system will have a specific, tailored version of this Contingency Plan or in some cases a completely unique Contingency Plan will be developed. All Bixal employees are aware of the procedures outlined herein.
 
 ### Overview
 
-This Contingency Plan provides baseline guidance for the CivicActions Team when managing the disruption, compromise, or failure of any component of a CivicActions IRCP managed system, product or service ("system"). As a general guideline, we consider "disruption" to mean unexpected downtime or significantly reduced service lasting longer than:
+This Contingency Plan provides baseline guidance for the Bixal Team when managing the disruption, compromise, or failure of any component of a Bixal IRCP managed system, product or service ("system"). As a general guideline, we consider "disruption" to mean unexpected downtime or significantly reduced service lasting longer than:
 
 *   30 minutes 0900 - 2100 Eastern Time Monday through Friday (standard U.S. business hours)
 *   90 minutes at other times
@@ -50,7 +50,7 @@ More than 3 hours of any system being offline during standard U.S. business hour
 
 Team contact information is available in the Google Drive:
 
-*   [CivicActions Incident Response Team contact sheet](https://drive.google.com/open?id=1P9TePYm2Gkly8EjxCzA2EmlTjUIBypE7-CbCZrRN1EA) with names and roles for CivicActions' Incident Response Team members. All CivicActions employees have access to this sheet.
+*   [Bixal Incident Response Team contact sheet @todo update] with names and roles for Bixal' Incident Response Team members. All Bixal employees have access to this sheet.
 
 ### Contingency plan outline
 
@@ -62,15 +62,15 @@ If the problem is identified as part of a [security incident response situation]
 
 The IC first notifies and coordinates with the people who are authorized to decide that the system is in a contingency plan situation:
 
-*   From CivicActions:
+*   From Bixal:
     *   Incident Commander
     *   Project Manager
-    *   CivicActions Incident Response Team
+    *   Bixal Incident Response Team
 *   From the customer:
     *   Product Owner
     *   Users, when applicable
 
-The IC keeps a log of the situation in the [`#general`](https://civicactions.slack.com/messages/general/) Slack channel or within a client-specific Slack channel, JIRA ticket, or GitHub issue. If this is also a security incident, the IC also follows the [security incident communications process](incident-response-plan.md#initiate). The IC should delegate assistant ICs for aspects of the situation as necessary.
+The IC keeps a log of the situation in the within a client-specific Teams channel, JIRA ticket, or GitHub issue. If this is also a security incident, the IC also follows the [security incident communications process](incident-response-plan.md#initiate). The IC should delegate assistant ICs for aspects of the situation as necessary.
 
 #### Recovery
 
@@ -188,4 +188,4 @@ This plan is most effective if all CivicActions team members know about it, reme
     *   All changes to the plan should be communicated to the rest of the team.
     *   At least once a year, and after major changes to our systems, we review and update the plan.
 *   How we protect this plan from unauthorized modification:
-    *   This plan is stored in the CivicActions Handbook GitHub repository (<https://github.com/CivicActions/handbook/tree/master/docs/09-security>) with authorization to modify it limited to the Incident Response Team by GitHub access controls. CivicActions policy is that changes are proposed by making a pull request and ask another team member to review and merge the pull request.
+    *   This plan is stored in the CivicActions Techbook GitHub repository (<https://github.com/Bixal/techbook/tree/master/docs/01-security>) with authorization to modify it limited to the Incident Response Team by GitHub access controls. CivicActions policy is that changes are proposed by making a pull request and ask another team member to review and merge the pull request.
