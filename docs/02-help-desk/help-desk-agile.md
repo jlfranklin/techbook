@@ -1,4 +1,4 @@
-# CivicActions Help Desk and Agile
+# Bixal Solutions Help Desk and Agile
 
 CivicActions' help desk practices follow Agile principles as follows:
 
