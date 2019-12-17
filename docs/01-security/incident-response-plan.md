@@ -1,4 +1,4 @@
-# CivicAction Incident Response Plan (IRP)
+# Bixal Solutions Incident Response Plan (IRP)
 
 ## Table of Contents
 

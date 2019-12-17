@@ -1,4 +1,4 @@
-# CivicActions Help Desk Working Practices
+# Bixal Solutions Help Desk Working Practices
 
 ## Overview
 
