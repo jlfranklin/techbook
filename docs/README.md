@@ -11,7 +11,7 @@ bixal.com
 
 ### <a name="purpose"></a>Techbook Purpose
 
-This Techbook has been prepared to describe CivicActions' philosophy, working methods and processes, employment practices, policies, benefits, and the conduct we expect from members of our team.
+This Techbook has been prepared to describe Bixal Solutions' philosophy, working methods and processes, employment practices, policies, benefits, and the conduct we expect from members of our team.
 
 ## License
 
@@ -21,4 +21,4 @@ This work is licensed under the terms of the [Creative Commons Attribution 4.0 I
 
 ## Acknowledgements
 
-We'd like to thank the folks at 18F for [their handbook](https://github.com/18F/handbook), and [CivicActions](https://github.com/CivicActions/handbook) from which this documentation was forked. We welcome you to fork our documentation, or use the source books, which is licensed as CC0.
+We'd like to thank the folks at 18F for [their handbook](https://github.com/18F/handbook), and [Bixal Solutions](https://github.com/CivicActions/handbook) from which this documentation was forked. We welcome you to fork our documentation, or use the source books, which is licensed as CC0.

@@ -1,6 +1,6 @@
 # Bixal Solutions Help Desk and Agile
 
-CivicActions' help desk practices follow Agile principles as follows:
+Bixal Solutions help desk practices follow Agile principles as follows:
 
 ## Individuals and interactions over processes and tools
 
@@ -12,7 +12,7 @@ In the occasional instances where users' needs come into conflict with other fac
 
 ## Customer collaboration over contract negotiation
 
-Every help desk interaction requires, before anything else, hearing a user clearly. Users often know more about the true experience of using a website better than we do, and we prioritize learning from them so that we can improve. We also pass what we've learned along to other members of the CivicActions team, so that we can prioritize making the user experience better through our work together. For help desk projects in which we work closely with a client, we prioritize listening to and understanding their needs, understanding that these may change during our work together.
+Every help desk interaction requires, before anything else, hearing a user clearly. Users often know more about the true experience of using a website better than we do, and we prioritize learning from them so that we can improve. We also pass what we've learned along to other members of the Bixal Solutions team, so that we can prioritize making the user experience better through our work together. For help desk projects in which we work closely with a client, we prioritize listening to and understanding their needs, understanding that these may change during our work together.
 
 ## Responding to change over following a plan
 
