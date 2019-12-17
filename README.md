@@ -4,7 +4,7 @@ This Techbook has been prepared to describe Bixal Soulutions philosophy, working
 
 ## This is not really the README you are looking for.
 
-The main techbook README is located at [docs/README.md](docs/README.md), which gets synced to readthedocs at <https://bixal-techbook.bixal.com/en/latest/README/>
+The main techbook README is located at [docs/README.md](docs/README.md), which gets synced to readthedocs at <https://techbook.bixal.com/en/latest/README/>
 
 ## Bixal Solutions, Inc.
 
