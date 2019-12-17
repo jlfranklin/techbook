@@ -2,7 +2,7 @@
 
 ## Overview
 
-Respect for our users and clients is one of the primary values in our work. As CivicActions support staff, we demonstrate this by emphasizing helpfulness, timeliness and kindness in our working practices.
+Respect for our users and clients is one of the primary values in our work. As Bixal Solutions support staff, we demonstrate this by emphasizing helpfulness, timeliness and kindness in our working practices.
 
 ## Helpfulness
 
@@ -43,7 +43,7 @@ Let me know if I can help with anything else in the meantime!
 
 Thanks,
 (My name)
-CivicActions Support
+Bixal Solutions Support
 ```
 
 The simple act of sending a response that acknowledges a question helps create a mutually beneficial partnership, and tells the user that they're not alone.
@@ -62,10 +62,10 @@ As with First Response time, our primary goal will be solving users' problems in
 
 ## Kindness
 
-Websites and web applications are frustrating; we've all experienced this. At CivicActions **we put ourselves in our users' shoes**, and recognize that they may view the site and the situation at hand from an entirely different perspective than those of us involved in building or maintaining web applications. Our perspective is not better than theirs; if we know more about a web application's construction, the end-user probably knows more about the subject area that it's designed for. **Our goal is to partner with users to make our tools easier and more effective to use.**
+Websites and web applications are frustrating; we've all experienced this. At Bixal Solutions **we put ourselves in our users' shoes**, and recognize that they may view the site and the situation at hand from an entirely different perspective than those of us involved in building or maintaining web applications. Our perspective is not better than theirs; if we know more about a web application's construction, the end-user probably knows more about the subject area that it's designed for. **Our goal is to partner with users to make our tools easier and more effective to use.**
 
 We always remember that just because a feature makes sense to us doesn't mean that it makes sense to end-users! Users may or may not have a strong background in computers and technology. Website users may be new to a particular browser environment or website type, or be limited to frustrating hardware and software requirements by their employer. Our goal is to do what we can to make the tools fit their needs. It's always in our mutual best interest to try to meet users where they're at.
 
 It may sometimes be necessary to **reassure that we're here to help**. Many help desks in the world are not helpful, and users may sometimes assume the worst. We can change that by simply saying "We'll do our best to solve that!" or "I'll get to the bottom of this and find out the answer for you".
 
-At times, as with any kind of work, communication with users can be frustrating, but every interaction is a chance to learn and grow, and we're at our best when we're collaborating from a standpoint of humility and appreciation. When we experience what appears to be impatience or rudeness from a user, our first choice in response is to **express empathy** so that the user knows we're on their side. This is surprisingly effective at solving problems. It also reflects our own personal motivations — we're actually here to help — and CivicActions' values as a company.
+At times, as with any kind of work, communication with users can be frustrating, but every interaction is a chance to learn and grow, and we're at our best when we're collaborating from a standpoint of humility and appreciation. When we experience what appears to be impatience or rudeness from a user, our first choice in response is to **express empathy** so that the user knows we're on their side. This is surprisingly effective at solving problems. It also reflects our own personal motivations — we're actually here to help — and Bixal Solutions' values as a company.

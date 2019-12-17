@@ -2,7 +2,7 @@
 
 ## Security Policy
 
-All engineers understand and abide by the [CivicActions Employee/Contractor Security Policy](../03-policies/security.md). Further, we have taken care in following all the steps laid out in the [Security Training](../01-welcome-to-civicactions/training/security-training.md).
+All engineers understand and abide by the [Bixal Solutions Employee/Contractor Security Policy](../03-policies/security.md). Further, we have taken care in following all the steps laid out in the [Security Training](../01-welcome-to-civicactions/training/security-training.md).
 
 In particular:
 
@@ -39,11 +39,11 @@ In particular:
 *   This includes our Google Docs!
 *   We ensure that users with enhanced privileges (to sites and/or servers)
     *   must use TFA for authentication/authorization
-    *   are appropriately adjusted upon separation from CivicActions.
+    *   are appropriately adjusted upon separation from Bixal Solutions.
 
 ### Advanced: Connecting to TFA-enabled Sevices/Apps
 
-Some applications and services may need to connect to your Civicactions google account but they might not be able to handle TFA. An example of this would be a personal Gmail account trying to send e-mails through your civicactions' account. For this purpose Google has created something called [App Passwords](https://support.google.com/accounts/answer/185833?hl=en). [App Passwords](https://support.google.com/accounts/answer/185833?hl=en) allows you to create a unique password for each of your services/apps. If this password is used while authenticating your service/app to access your CivicActions' account it will bypass TFA.
+Some applications and services may need to connect to your Civicactions google account but they might not be able to handle TFA. An example of this would be a personal Gmail account trying to send e-mails through your civicactions' account. For this purpose Google has created something called [App Passwords](https://support.google.com/accounts/answer/185833?hl=en). [App Passwords](https://support.google.com/accounts/answer/185833?hl=en) allows you to create a unique password for each of your services/apps. If this password is used while authenticating your service/app to access your Bixal Solutions' account it will bypass TFA.
 
 There are some instructions at <https://support.google.com/accounts/answer/185833?hl=en> on how to use App Passwords with Google. Several other TFA-enabled services also support app passwords -- see their respecive documentation.
 
