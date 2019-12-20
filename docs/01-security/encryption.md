@@ -40,7 +40,7 @@ Choose:
 * (1) RSA and RSA (default)
 * keysize = 4096 bits
 * 0 = key does not expire
-* use your civicactions.com email address (you can add more email addresses later)
+* use your bixal.com email address (you can add more email addresses later)
 * use a strong pass phrase to protect your secret key
 
 The generated key is actually a *key pair*: a *public* key that you can give to anyone, and a *private* key that you protect with a passphrase. A file encrypted with someone's public key can only be decrypted by a person who posseses the associated private key. You can also *sign* a document (encrypted or not) with your private key so that others who have your public key can verify that the document was signed by you - and only you.

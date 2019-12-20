@@ -50,7 +50,7 @@ For each Google account you have:
 *   Click on "Security Keys" and follow instructions to add Yubikey.
 *   Return to the main page and add a second phone and/or print backup codes.
 *   As long as you have a backup, you can also install the Yubikey Authenticator app, and configure your account to use that for the backup TFA instead of SMS/phone - this is the same as the Google Authenticator app, except that it stores the credentials on your Yubikey instead of the phone.
-*   If you have funky devices/apps that don't support TFA, you can set an application specific password using that tab. This includes sending E-mail from your personal Gmail account using your civicactions.com IMAP, for instance.
+*   If you have funky devices/apps that don't support TFA, you can set an application specific password using that tab. This includes sending E-mail from your personal Gmail account using your bixal.com IMAP, for instance.
 
 ### Github
 

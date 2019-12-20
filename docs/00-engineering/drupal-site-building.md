@@ -337,7 +337,7 @@ Why? So that we can mitigate risk and ensure a good value proposition for the cl
 
 ### Examples
 
-*   etr: <https://www.nationalserviceresources.gov/>
+* etr: <https://www.nationalserviceresources.gov/>
 
 ### We update to new minor versions of Drupal core.
 
@@ -345,17 +345,17 @@ We do this so we can resolve bugs when necessary, or address security vulnerabil
 
 #### How we do this
 
-*   We backup our db using pushdb –backup (or drush sql-dump).
-*   We use the drush up on our sandbox, then commit/tag/push.
-*   There's a trello board to monitor security updates for sites we host <https://trello.com/b/QdozgLL0/security-updates-for-client-sites>
+* We backup our db using pushdb –backup (or drush sql-dump).
+* We use the drush up on our sandbox, then commit/tag/push.
+* There's a trello board to monitor security updates for sites we host <https://trello.com/b/QdozgLL0/security-updates-for-client-sites>
 
 ### We configure secure text filters.
 
 #### Avoid
 
-*   Tables
-*   Tables
-*   php module
+* Tables
+* Tables
+* php module
 
 ### We use Entityform instead of Webform whenever possible.
 
@@ -365,9 +365,9 @@ Projects where this has proven useful: RTM, Teach.
 
 #### When to do this
 
-*   When you have a smallish number of forms.
-*   When you need excellent views, token, rules etc integration.
-*   When you need better control over response output.
+* When you have a smallish number of forms.
+* When you need excellent views, token, rules etc integration.
+* When you need better control over response output.
 
 #### When not to do this
 
@@ -376,8 +376,6 @@ Projects where this has proven useful: RTM, Teach.
 ### We use panels layouts, rather than page specific layout adjustments.
 
 We do this so that layouts are cleanly separated from other visual styles, and so that they are reusable.
-
-A great way to do this is to make a standalone Zen Grids layout - see <https://git.civicactions.net/civicactions/home/tree/master/docroot/sites/all/themes/sanantonio/panels-layouts/three-across> for an example.
 
 ### We configure streamlined and semantic markup by default.
 
@@ -421,12 +419,10 @@ We do this to prioritize functionality and keep things maintainable and performa
 
 #### Tools / Resources to consider
 
-*   Features Extra module (adds blocks, user profiles to Features)
-*   Configuration module (captures a subset of what Features captures)
-*   Features Builder: <https://www.drupal.org/project/features_builder>
-*   Apps: <https://www.drupal.org/project/apps>
-*   Organizing Features for Configuration Management:
-    <https://docs.google.com/a/civicactions.net/document/d/178hsoHrK28xj6M9FlBDXNSufo7oD4i9zu-ernqDARvI/edit?usp=sharing>
+* Features Extra module (adds blocks, user profiles to Features)
+* Configuration module (captures a subset of what Features captures)
+* Features Builder: <https://www.drupal.org/project/features_builder>
+* Apps: <https://www.drupal.org/project/apps>
 
 ### We avoid namespace conflicts.
 
