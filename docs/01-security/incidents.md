@@ -12,7 +12,7 @@ If you receive a phishing email, follow these steps to report to Bixal Solutions
 4. Mark the email as a phishing email by selecting the `Report phishing` option in the same "triangle" menu associated with the email.
 5. Forward the email to `security@bixal.com`. As long as you haven't clicked on link or downloaded the file, you may stop here.
    * If you suspect that the email has compromised your system with a download or link, attach the original text you downloaded. Please include *Security Incident* in the subject line, along with a brief description of the issue (Ex. Clicked on link in phishing email).
-6. Report the phishing email in the `Ops Alerts` (attention: `@channel`) Teams channel. (The `general` channel is used as everyone has access to it.)
+6. Report the phishing email in the `#Official - Incident Response` (attention: `@channel`) Teams channel.
 7. After receiving your notification to security, IT may create a ticket and contact you for more information.
 
 You might be tempted to simply mark phishing emails as spam and otherwise ignore them, but if you accidentally (or intentionally) click a link or receive a download from a suspect email, you must report it as an incident following the steps above. Successful phishing attacks are security incidents and should be reported immediately. Phishing emails that are automatically routed to your spam folder do not need to be reported. Your vigilance also helps Bixal Solutions IT to prepare against similar phishing attacks that might be sent to other team members.
@@ -24,7 +24,7 @@ To report a security incident, follow *all* of the steps below:
 1. Send an email to <mailto:security@bixal.com> within 1 hour of identifying an incident. Please include *Security Incident* in the subject line, along with a brief description of the incident (Ex. "password committed to Bitbucket repo"). Don't worry if you don't have all of the details gathered when you email Bixal Solutions Security (AKA "Incident Response") team. The critical piece here is notification within one hour.
 2. If the incident is project specific:
    * If there is a project specific tech email address, you can email the information to that instead. If unsure, email <mailto:security@bixal.com>.
-   * Report the incident in the project Teams channel (attention: `@security`). This will alert the project's Incident Response Team as well as the Project Manager (PM).
+   * Report the incident in the project Teams channel `#Official - Incident Response` (attention: `@general`). This will alert the project's Incident Response Team as well as the Project Manager (PM).
 
 3. Do not delete any potential evidence or modify the evidence without instruction from the Incident Response team. For example, in the event of a suspected Bitbucket incident, do no delete files or modify the access permissions on the Bitbucket repository. In the event of a suspected Amazon Web Services (AWS) or Kubernetes incident, do not stop or allow an instance or app to be terminated that is potentially part of the incident. Please leave the instance running and reconfigure the Security Group or route for that instance to be dismissive of all ingress and egress traffic until a forensics review can be performed. A significant set of data is lost and is unrecoverable when instances or containers are "stopped" or "terminated."
 
