@@ -32,8 +32,8 @@ At this point, the *Incident Commander* (aka the first *Responder*) is usually w
 
 * Determine if you can whether or not this may be a false alarm.
 * If you believe it may be a real incident (best to err on the side of *"it is an incident"*) and you can't resolve yourself in under 15-30 minutes, find either a *Responder* or replacement *Incident Commander* to help share the load:
-  * Teams: `#Ops Alerts` using `@channel` (notifies the team of an incident).
-  * [Bixal Solutions Incident Response Team contact sheet @todo update with link]()
+  * Teams: IT Infrastructure group channel `#Official - Incident Response` using `@General` (notifies the team of an incident).
+  * Bixal Solutions Incident Response Team contact sheet located in the IT Infrastructure Group.
 
 ## Assess
 
@@ -48,7 +48,7 @@ The *Incident Commander*:
 
 * Forms a team (*responders*) to determine if the event is actually a confirmed incident, and if so [assesses the severity](incident-response-plan.md#incident-severities).
 * Determines whether to also activate the [contingency plan](contingency-plan.md) - *is a system failure causing the disruption?*
-* Posts an initial situation report ("sitrep") ([example sitrep](incident-response-plan.md#assess)) to `#Ops Alerts` teams including the a descriptive name, Commander and Responders
+* Posts an initial situation report ("sitrep") ([example sitrep](incident-response-plan.md#assess)) to `#Official - Incident Response` teams including the a descriptive name, Commander and Responders
 
 ## Remediate
 
@@ -82,7 +82,7 @@ Extra checklists for special situations that don't always occur during incidents
 
 Follow this checklist if an event turns out not to be a security incident:
 
-* Notify `Ops Alerts` of the false alarm.
+* Notify `#Official - Incident Response` of the false alarm.
 * Update the GitHub/Bitbucket/JIRA issue (if one exists) setting status to `Done`.
 * If any sitreps have been sent out, send a final sitrep to all previous recipients, noting the false alarm.
 

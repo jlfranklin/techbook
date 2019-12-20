@@ -36,7 +36,8 @@ At a high level, incident response follows this process:
 
 * A Bixal Solutions team member (the *reporter*) notices and reports a system related incident, notifying the Bixal Solutions Incident Response Team:
   1. Teams: client specific channel using `@channel`.
-  2. [Bixal Solutions Incident Response Team contact sheet @todo update link]()
+  1. Teams: IT Infrastructure group `#Official - Incident Response`
+  1. Bixal Solutions Incident Response Team contact sheet located in the groups Sharepoint.
 * The first responder on the Incident Response Team (which could be the reporter if the reporter is on the team) becomes the initial **Incident Commander (IC)**.
 
 [Assess](#assess):

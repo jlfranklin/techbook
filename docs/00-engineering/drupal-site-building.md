@@ -179,10 +179,6 @@ Drupal has a notoriously poor content workflow and editing experience OOTB. Ther
 *   Training clients in creating search optimized content.
 *   Researching/identifying keywords (Discovery).
 
-### We import and export data: Feeds and Migrate
-
-> @todo: needs content
-
 ### We include social media functions
 
 #### How we do this
