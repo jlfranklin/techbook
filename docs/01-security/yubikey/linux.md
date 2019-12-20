@@ -37,7 +37,7 @@ Install packages as needed (`dunst` and `libnotify` optional -- you may already 
 #### Arch
 
 ```
-$ pacaur -S xsecurelock-git xautolock dunst libnotify
+pacaur -S xsecurelock-git xautolock dunst libnotify
 ```
 
 Next make sure dunst (if using for notifications) and xautolock (if using) are started on X login.
@@ -71,7 +71,7 @@ fi
 
 ## Locking your Machine with YubiKey
 
-This will require the Yubikey (Two Factor Authentication) to be inserted to authenticate via PAM (login, sudo or screen unlock). Test this carefully in an alternate console session to ensure you **don't lock yourself out!** (If you do get locked out, you'll have to boot with a live CD and undo the changes in /etc/pam.d/. As this requires a reboot, your [encrypted disk](https://github.com/Bixal Solutions/security-policy/blob/master/tools#disk-encryption-and-storage-management) will require its passphrase again, which is the key to secuity here.)
+This will require the Yubikey (Two Factor Authentication) to be inserted to authenticate via PAM (login, sudo or screen unlock). Test this carefully in an alternate console session to ensure you **don't lock yourself out!** (If you do get locked out, you'll have to boot with a live CD and undo the changes in /etc/pam.d/. As this requires a reboot, your [encrypted disk](<https://github.com/Bixal> Solutions/security-policy/blob/master/tools#disk-encryption-and-storage-management) will require its passphrase again, which is the key to secuity here.)
 
 This is required of Bixal Solutions "privileged users" such as System Administrators, and it is our intention that it be standard practice for all Bixal Solutions employees and contractors.
 
@@ -82,7 +82,7 @@ In order to connect your YubiKey to the screen locking software on your computer
 #### Arch
 
 ```
-$ pacaur -S yubico-pam
+pacaur -S yubico-pam
 ```
 
 #### Fedora
@@ -100,7 +100,7 @@ PAM is the Pluggable Authentication Module used by GNU/Linux and Mac OS X to man
 See [Yubico GitHub](https://github.com/Yubico/yubico-pam/blob/b0e243835e61418bfa760e57c3d313b2e9452e87/doc/Authentication_Using_Challenge-Response.adoc) page for complete documentation.
 
 ```
-$ ykpamcfg -2 -v
+ykpamcfg -2 -v
 ```
 
 Ubuntu autoconfiguration during installation of `libpam-yubico` may already have placed a line like the following in either `/etc/pam.d/common-auth` or `/etc/pam.d/system-auth`. If not using Ubuntu (or the line is not there), edit `/etc/pam.d/system-auth` (will need to `sudo`) and add the following line at the top of the file:
