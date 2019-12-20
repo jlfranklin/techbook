@@ -50,7 +50,7 @@ More than 3 hours of any system being offline during standard U.S. business hour
 
 Team contact information is available in the the ICPR Group in Active Directory:
 
-* [Bixal Incident Response Team contact sheet @todo update] with names and roles for Bixal' Incident Response Team members. All Bixal employees have access to this sheet.
+* Bixal Incident Response Team contact sheet (located in the files section in share point group) with names and roles for Bixal' Incident Response Team members. All Bixal employees have access to this sheet.
 
 ### Contingency plan outline
 
@@ -90,7 +90,7 @@ The Incident Commander declares that recovery efforts are complete and notifies 
 
 Bixal Solutions managed systems often depend on several external services. In the event one or more of these services has a long-term disruption, the team will mitigate impact by following this plan. Zero or more of the following services may be involved:
 
-#### Bitbucket @todo update links
+#### Bitbucket
 
 * **Service:** <https://github.com>
 * **Status:** <https://status.github.com/>
@@ -106,22 +106,17 @@ disruption would only impact the team's ability to update code on the instances.
 
 There is no direct impact to the platform if a disruption occurs. Primary incident communications will move to the projects Microsoft Teams channel.
 
-#### OFfice365 @todo update links
+#### Office365
 
-* **Service:** <https://Bixal Solutions.slack.com/messages/globalnet/>
-* **Status:** <https://status.slack.com/>
-* **Status:** <https://twitter.com/SlackStatus>
-* **Backup:** <https://chat.google.com/> - useful for realtime comms if Slack is down
+* **Status:** <https://status.office365.com/>
 
 There is no direct impact to the platform if a disruption occurs.
 Primary incident communications will move to SMS and phone communications.
 
 #### AWS
 
-*   **Service:** <https://globalnet.signin.aws.amazon.com/console>
-*   **Status:** <http://status.aws.amazon.com/>
-
-If needed, you can [manage and create new servers](https://console.aws.amazon.com/ec2/v2/home?region=us-east-1).
+* **Service:** <https://globalnet.signin.aws.amazon.com/console>
+* **Status:** <http://status.aws.amazon.com/>
 
 In case of a **significant** disruption, after receiving approval from our Authorizing Official, the Bixal Solutions team will deploy a new instance of the entire system to a [different region](https://us-west-1.console.aws.amazon.com/ec2/v2/home?region=us-west-1).
 

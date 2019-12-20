@@ -2,10 +2,8 @@
 # Each line is a file pattern followed by one or more owners.
 # Order is important. The last matching pattern has the most precedence.
 
-# These owners will be the default owners for everything in the repo.
-# * @Bixal/@todo-team
-
 # These will automatically assign PRs that touch files in these directories to their respective teams for review.
-docs/00-engineering/* @Bixal/@todo-team  @Bixal/docs
-docs/01-security/* @Bixal/@todo-team  @Bixal/docs
-docs/02-help-desk/* @Bixal/@todo-team  @Bixal/docs
+# @todo test ownership and mappings
+# docs/00-engineering/* @Bixal/@Development @Bixal/docs
+# docs/01-security/* @Bixal/@Security  @Bixal/docs
+# docs/02-help-desk/* @Bixal/@ITOperations  @Bixal/docs
