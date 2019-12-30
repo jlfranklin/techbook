@@ -14,9 +14,6 @@ Most Drupal 8 and beyond projects at Bixal use some version of [Bixal drupal-pro
   * [Writing Secure Code in Drupal 8](https://www.drupal.org/docs/8/security/writing-secure-code-for-drupal-8)
 * We ensure and test our coding standards using the built in automation in projects. Please check the readme.md of the project you are working on. Most projects will have a [Makefile](https://github.com/Bixal/drupal-project/blob/8.x/Makefile) or Python Script which makes this a near trivial effort. Certain projects or lead may enforce this effort using githook. All projects will test for this in Bitbucket pipelines, Gitlab, Github, CircleCi, etc.
   * All module functions (even little helper functions) should have the module prefix.
-  * Database tables should have the module prefix.
-  * Variables should have the module prefix.
-  * Custom code, when possible, should be developed as a standalone library that a module can include and integrate with Drupal. This should mean using class namespaces and best OOP practices, and at that point we can use an alternative more flexible autoloading approach, like the one provided by composer.
 * We always try to use Drupal functions where they exist. This helps with upgrades (among other things).
   * Use `drupal_get_path();` to create a path to a file in your module directory.
   * Use `path_to_theme();` to create a path to a file in the current theme directory.
@@ -29,8 +26,8 @@ Most Drupal 8 and beyond projects at Bixal use some version of [Bixal drupal-pro
 
 ## Git Commits
 
-* Put descriptive text in the commit log.
-* Begin the commit log test with the ticket number, e.g. GN-123 (JIRA).
+* Include a descriptive message in the git commit.
+* Begin the commit message with the ticket number, e.g. GN-123 (JIRA).
 
 ## Editor Configuration for Coding
 
@@ -58,7 +55,7 @@ To configure your editor/development environment for Drupal:
 
 ### We prototype high risk items first
 
-We need to scope out high risk tickets to inform basic site architecture decisions. As we know more about a problem, we reduce the risk. Therefore focusing on high-risk first enables early identification of architectural obstacles and opportunities, leading to better matching of functional requirements and system architecture.
+We need to scope out high-risk tickets to inform basic site architecture decisions. As we know more about a problem, we reduce the risk. Therefore focusing on high-risk first enables early identification of architectural obstacles and opportunities, leading to better matching of functional requirements and system architecture.
 
 #### How we do this
 
@@ -98,102 +95,36 @@ We use established Drupal contrib projects rather than writing custom code. It's
 
 #### When to use
 
-* A modules function closely aligns with a requirement.
+* A module's function closely aligns with a requirement.
 * When anticipated function changes align with how the module can be configured.
 * When other administrators/developers/end-users are expected to be able to make configuration changes.
 
 #### When to avoid
 
+* When the module seems abandoned.
+* When the module had not yet had a 1.0 release and hasn't been updated in over 6 months.
+* When the module shows serious impediments in its issue queue.
 * When a lighter-weight approach might produce the same functionality.
 * When an alternative approach using other Drupal tools (e.g. Views for customized data retrieval) might offer less lock-in and more configurability.
 * When the price of setup and configuration and likelihood of unintentional breakage indicates that a custom module is a better fit.
 * When a more direct approach (i.e. modifying data at the db level rather than through Drupal) might be faster/better/more economical.
+* When the desired functionality is a small subset of a large overhead.
 
 #### Resources
 
 * <http://civicactions.com/blog/most_important_decision_developing_site_Contributed_vs_custom_development>
 * <http://www.civicactions.com/blog/Drupal_Developer_Tips_Getting_Most_out_Open_Source>
 
-### We use Features best practices
+### We create websites with flexible layouts
 
-#### Practices for all projects
-
-* Always include Strongarm module.
-* Always fu-all periodically/always so cross-feature dependencies are updated.
-* Include features_extra if you need to add blocks and nodequeues to your feature.
-* We use a hook_update_N in a .install file of the feature to revert our feature.
-
-#### Practices for smaller projects
-
-* Break features into generic Drupal functionality areas: user config/access permissions; theme; content; custom reports, feeds, etc.
-
-#### Practices for larger projects
-
-* Make ALL configuration changes locally (except for last-minute changes to live – see below). Then either do a drush fu-all OR use the features UI to regenerate the specific feature you've rebuilt.
-* Pull last minute Feature content from live using the UI: it will take the config settings and save them locally.
-* Then use git status or svn stat to ensure that the correct files were indeed updated. Features is generally okay, but at times it seems to not register an update or a rebuild. Always best to double check.
-* After you've made sure that your configuration changes have indeed been captured in code, commit and push your code.
-* When pulling code from the repository whether on a staging, dev or qa site – always do a drush fr-all -y immediately after pulling the codebase. This will ensure that all of your config is up-to-date.
-* Create Feature sets on two levels: generic and specific function.
-* Consider restricting the amount of time you spend featurinzing during the prototype stage.
-
-#### Resources
-
-* <https://drupal.org/project/ftools>
-* <https://drupal.org/project/configuration>
-* Good read (though 2 years old): <http://www.lullabot.com/blog/article/features-module>
-
-### We create websites with customizable display layouts
-
-Blocks vs Context vs Panels vs Panelizer.
+Components, Twig, Container Paragraphs, and Master-display content views vs Blocks, Context, Rules, Panels, Panelizer and Page-display field views.
 
 #### Blocks
-
-* Only for very simple sites. Sometimes used for the header/footer regions in combination with Panels, unless you're using "panels everywhere."
-
 #### Context
-
-* Can be easier to theme than panels.
-
 #### Panels
-
-* Easy to create generic templates with one-off major exceptions.
-* Offers many add-ons like visibility settings on a per-pane basis, contextual filters (arguments) etc.
-* Much more intuitive for content creators.
-* Settings can be captured in code.
-* Flexible conditional content/view permission options.
-* Can be non-intuitive and fussy.
-
-#### Panelizer
-
-* Panelizer allows default panel that can be overridden by content creators.
-* Can lock down default layouts while enabling modification by content creators.
-* Con: Content creator customizations can't be version controlled as they reside in the db. Can cause major issues down the road.
-
-### We configure content structure before content display
-
-There's an iterative link between content structure and content display. It's important to configure content structure as far as you can before working on display because It expedites content entry by content creators and you can't display what doesn't exist.
-
 #### How we do this
-
-* Use content display wireframes as a clue to content structure.
-* Use other examples of relevant solutions as clues/hints/templates about what to design.
-* Talk with clients and attempt to clarify their willingness to attend to content detail.
-* KISS whenever possible.
-
 #### When to use
-
-* When you have a pretty clear understanding about what you want to display.
-* When you've gone through a formal design phase.
-
 #### When to avoid
-
-* When the project conflates the design and development phases into a rapid prototyping sprint.
-
-#### Examples
-
-* [eatfresh.org](http://eatfresh.org/) recipe development: food integrates with instructions, with sources, with specific geo-location specific variables tied to county of residence.
-
 ### We build sites such that we can accommodate changing needs and requirements
 
 We are agile, and we expect our clients to require agility in their website.
@@ -204,22 +135,22 @@ We are agile, and we expect our clients to require agility in their website.
 * We use OTS solutions where practical.
 * We choose the most reliable and robust solution to a functional problem and try not to lock ourselves into a specific approach.
 
-### We treat the user stories of content editors and creators seriously
+### We treat the designs of UX specialists and the user stories of content editors and creators seriously
 
 Drupal has a notoriously poor content workflow and editing experience OOTB. There are simple ways to improve this.
 
 #### How we do this
 
-* WYZIWYG: ckeditor (D8, works great in d6/d7).
+* ckeditor.
 * Create taxonomy vocabularies, related VBO views matched with rule sets to assist in managing editorial workflows.
-* Use multistep form to make dealing with metadata less onerous.
 * Create custom versions of the admin/content/node page (and other entity types) that shows fields that are useful for managing and bulk editing content.
-* Install views_bulk_operations and rules to assist in managing workflow tasks.
+* Install core and contributed modules to assist in managing workflow tasks.
 
 ### We configure sites that are optimized for SEO
 
 #### Modules that are easy SEO wins
 
+* 508 compliance
 * globalredirect
 * xml sitemap
 * Google Analytics module
@@ -237,7 +168,7 @@ Drupal has a notoriously poor content workflow and editing experience OOTB. Ther
 
 #### How we do this
 
-* AddThis / ShareThis / AddToAny are services that offer code snippets and analytics.
+* AddThis / ShareThis / AddToAny are services that offer code snippets and analytics. They should be reviewed for current privacy concerns and the client's governance policy before use.
 
 #### When to use
 
@@ -253,41 +184,12 @@ Drupal has a notoriously poor content workflow and editing experience OOTB. Ther
 
 #### Tips
 
-* It's not always worth bothering with an AddThis/ShareThis/AddtoAny Drupal module; adding code to tpl.php files can sometimes be easier.
+* It's not always worth bothering with an AddThis/ShareThis/AddtoAny Drupal module; adding code to twig templates can sometimes be easier.
 
-### We capture configuration settings in code
+### We capture configuration settings in yaml files
 
-Drupal configuration settings reside in various places in the source database. We capture configuration settings in code so that those settings can be versioned and reverted, and can be transferred to other installations without being manually entered.
-
-#### Pros and cons of storing config in code
-
-##### Reasons to store in code
-
-* The project is sufficiently large and has configuration options too numerous to keep track of using the "config master" approach.
-* Common configuration options can be exported and set up quickly on similar projects.
-* With configuration exported to code, we have the advantages of version control – including a history of configuration changes.
-* Makes deploying new functionality less risky.
-
-##### Reasons not to store in code
-
-* In Drupal 7, Features module can be a PITA. It's buggy and often doesn't reflect the current state (overridden, default, needs review) of features.
-* Features can create overhead later in a project: new functionality sometimes may require refactoring existing features.
-* During prototype stages of a project, confg changes vary rapidly and you can spend more time storing / retrieving the changes than is worth it.
-* You don't yet know the granularity level of site functions.
-
-### We build sites that are pleasant to administer
-
-#### We install these on all sites
-
-* Ctools and Views
-* Date
-* module_filter for the /admin/modules page
-* admin_menu.module > toolbar.module > admin.module
-* pathauto
-
-#### Think carefully before installing
-
-* Media tools
+* Drupal configuration settings reside in various places in the source database. We capture configuration settings in yaml files so that those settings can be versioned and reverted, and can be transferred to other installations without being manually entered.
+* We use config_partial_export to easily allow exporting of individual configuration file changes to be committed.
 
 ### We consider Search configuration implications early in the development process
 
