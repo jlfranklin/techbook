@@ -15,7 +15,7 @@ In particular:
 
 * When creating test or exploratory accounts on staging or production systems, we:
   * use a user name derived from your name like `first.lastname` or `flastname` or `flastname-admin`
-  * use your `civicactions.com` email address (can add an identifier, e.g. `first.lastname+project-admin@civicactions.com` -- everything after the `+` is ignored by the mailer)
+  * use your `bixal.com` email address (can add an identifier, e.g. `first.lastname+project-admin@bixal.com` -- everything after the `+` is ignored by the mailer)
 * We minimize custom code, always preferring to use community maintained modules and contribute patches when needed
 * When necessary for new functionality, we strive to create generic modules and contribute them to the parent project
 * Custom code must:
@@ -43,9 +43,9 @@ In particular:
 
 ### Advanced: Connecting to TFA-enabled Sevices/Apps
 
-Some applications and services may need to connect to your Civicactions google account but they might not be able to handle TFA. An example of this would be a personal Gmail account trying to send e-mails through your civicactions' account. For this purpose Google has created something called [App Passwords](https://support.google.com/accounts/answer/185833?hl=en). [App Passwords](https://support.google.com/accounts/answer/185833?hl=en) allows you to create a unique password for each of your services/apps. If this password is used while authenticating your service/app to access your Bixal Solutions' account it will bypass TFA.
+Some applications and services may need to connect to your Bixal Solutions Office365 account but they might not be able to handle TFA. An example of this would be the Android Gmail client, connecting to Office365 for email. For this purpose Microsoft has created something called [App Passwords](https://support.office.com/en-us/article/create-an-app-password-for-office-365-3e7c860f-bda4-4441-a618-b53953ee1183). [App Passwords](https://support.office.com/en-us/article/create-an-app-password-for-office-365-3e7c860f-bda4-4441-a618-b53953ee1183) allows you to create a unique password for each of your services/apps. If this password is used while authenticating your service/app to access your Bixal Solutions' account it will bypass TFA.
 
-There are some instructions at <https://support.google.com/accounts/answer/185833?hl=en> on how to use App Passwords with Google. Several other TFA-enabled services also support app passwords -- see their respecive documentation.
+There are some instructions at <https://support.office.com/en-us/article/create-an-app-password-for-office-365-3e7c860f-bda4-4441-a618-b53953ee1183> on how to use App Passwords with Google. Several other TFA-enabled services also support app passwords -- see their respecive documentation.
 
 ### IT: Sharing Service Accounts
 
