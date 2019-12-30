@@ -16,6 +16,8 @@ All cloud service providers, which have a fedRAMP authorization have have strong
 
 ## Amazon Web Services
 
+Currently Bixal utilizes AWS with it's current hosting support.
+
 ### Managing Credentials
 
 ### Gov Cloud vs Public Regions
