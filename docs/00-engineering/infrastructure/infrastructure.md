@@ -1,6 +1,6 @@
 # Infrastructure Best Practices
 
-Bixal utilized infrastructure as code (IaC) for services that support it. IaC provides reproducibility and allows for ephemeral environments. Different technologies exists to accomplish this task from [Terraform](https://www.terraform.io/), [Ansible](https://www.ansible.com/)
+Bixal utilized infrastructure as code (IaC) for services that support it. IaC provides reproducibility and allows for ephemeral environments. Different technologies exists to accomplish this task from [Terraform](https://www.terraform.io/), [Ansible](https://www.ansible.com/), [Packer](https://packer.io), or [Vagrant](https://www.vagrantup.com/) are common technologies that we've run across.
 
 To document all the best practices of each different technology you encounter is out of the scope of this document. The goal of this page is to cover the major security concerns and serve as an introduction how to build and maintain infrastructure.
 
