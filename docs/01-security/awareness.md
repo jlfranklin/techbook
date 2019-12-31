@@ -2,7 +2,7 @@
 
 ## Password Management Tools
 
-A password manager will enable you to have unique, strong passwords for every service that you log into. Good password managers will generate new passwords for you, auto-fill web forms, allow extra protection for high-security accounts (like banking), and more. Choose a password manager that encrypts locally (in your browser, so you don't have to trust the provider to keep their data safe) and that has iPhone and Android apps that will auto-sync with the manager. At Bixal Solutions, we currently recommend LastPass or Keeper as it is the most full-featured, but we are keeping a close eye on the FOSS KeePass and Password Safe solutions.
+A password manager will enable you to have unique, strong passwords for every service that you log into. Good password managers will generate new passwords for you, auto-fill web forms, allow extra protection for high-security accounts (like banking), and more. Choose a password manager that encrypts locally (in your browser, so you don't have to trust the provider to keep their data safe) and that has iPhone and Android apps that will auto-sync with the manager. At Bixal Solutions, we currently recommend [BitWarden](https://bitwarden.com/) ([open source and privacy focused](https://restoreprivacy.com/bitwarden/)) LastPass or Keeper as it is the most full-featured, but we are keeping a close eye on the FOSS KeePass and Password Safe solutions.
 
 ### LastPass
 
