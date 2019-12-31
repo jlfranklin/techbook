@@ -6,6 +6,21 @@ To document all the best practices of each different technology you encounter is
 
 ## FedRAMP
 
+### What is FedRAMP
+
+FedRAMP is an program authorized by the OMB to streamline the 'Authority to Operate' process and simplify setting up technology systems and fulfilling [FISMA](https://www.dhs.gov/cisa/federal-information-security-modernization-act) requirements. It's very verbose with some 800+ controls related to the security and procedures around ownership of technology at the federal level. To sum up what it addresses:
+
+* Who has access to the system?
+* What roles are there?
+* What PII is contained within the system?
+* What are the impacts if the system is not available?
+* What is the plan if the system needs to be recovered from physical or technology disasters.
+* How is the system backed up?
+* Who is securing and updating technology in the system?
+
+FedRAMP lets us use a platform like Acquia, and not have to be responsible for the physical hardware and only be responsible
+for the application and user management.
+
 ## Network Architecture
 
 Projects should always take network architecture into account when designing servers and infrastructure. All CSP's have the ability to create public, and private subnet's. By utilizing this architecture services can remain private and more protected, and services such as bastion hosts may be used to harden access to private services. For more information on this type of architecture you can review AWS's [reference documentation](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Scenario2.html). While this documentation is AWS specific, the concepts apply across CSP's.
