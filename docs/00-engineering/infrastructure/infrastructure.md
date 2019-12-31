@@ -34,7 +34,7 @@ mfa_serial = arn:aws:iam::123456789:mfa/my-username
 region = us-east-1
 ```
 
-You can then assume this role with the following useage:
+You can then assume this role with the following usage:
 
 ```sh
 $ aws --profile projectname sts get-caller-identity
