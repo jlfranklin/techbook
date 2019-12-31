@@ -20,6 +20,37 @@ Currently Bixal utilizes AWS with it's current hosting support.
 
 ### Managing Credentials
 
+Generally access is given to a role by using AWS Security Token Service. You will have a user which has been given a policy to [assume](https://aws.amazon.com/premiumsupport/knowledge-center/iam-assume-role-cli/) a role. In order to be able to assume a role, you must have [multi-factor authentication](https://aws.amazon.com/iam/features/mfa/) set up. This only works with the Virtual device MFA, not with Yubikey U2F!
+Once you have a user account, with MFA and password setup you can create an [access key](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#Using_CreateAccessKey). Once you have an access key you can install the [aws cli](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html). To configure the cli create a ~/.aws/credentials file. This file should look something like this:
+
+```text
+[default]
+aws_access_key_id = MYACCESSKEY
+aws_secret_access_key = MYSECRETACCESSKEY
+[projectname]
+role_arn = arn:aws:iam::9999999999:role/developer-role
+source_profile = default
+mfa_serial = arn:aws:iam::123456789:mfa/my-username
+region = us-east-1
+```
+
+You can then assume this role with the following useage:
+
+```sh
+$ aws --profile projectname sts get-caller-identity
+Enter MFA code for arn:aws:iam::123456789:mfa/my-username:
+```
+
+You will get a response that similar to the following:
+
+```json
+{
+    "UserId": "MYACCESSKEY:default-botocore-session-654321654321",
+    "Account": "789456123",
+    "Arn": "arn:aws:sts::789456123:assumed-role/developer-role/default-botocore-session-654321654321"
+}
+```
+
 ### Gov Cloud vs Public Regions
 
 The primary differences between Gov Cloud and a General Public regions is staffing, and availability of services and FedRAMP authorizations. Gov Cloud has FedRAMP high along with some related DoD impact level certifications. It achieves this by staffing only US Citizens and a reduction in overall services where they cannot be compliant to the standard.
