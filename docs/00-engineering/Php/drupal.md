@@ -45,12 +45,9 @@ INDENT_WIDTH = 2
 
 To configure your editor/development environment for Drupal:
 
-* PHP Storm
-You may follow: https://www.drupal.org/docs/develop/development-tools/configuring-phpstorm
-Bixal has PHP Storm licenses available for the developers. To request one, please contact the [help desk](help-desk-agile.md).
-
-* [VSCode]
-You may follow: https://www.drupal.org/docs/develop/development-tools/configuring-visual-studio-code
+* [PHP Storm](https://www.drupal.org/docs/develop/development-tools/configuring-phpstorm)
+  * Bixal has PHP Storm licenses available for the developers. To request one, please contact the [help desk](help-desk-agile.md).
+* [VSCode](https://www.drupal.org/docs/develop/development-tools/configuring-visual-studio-code)
 
 @todo this entire section below needs to be reviewed and updated
 # Drupal Site Building
