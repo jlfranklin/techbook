@@ -2,14 +2,18 @@
 
 ## Applicability
 
-**Note:**  This Incident Response Plan applies to systems for which Bixal Solutions and third party contractors. Individual systems
-may have a tailored version of this Privacy Incident Response Plan or in some cases a completely unique Privacy
-Incident Response Plan will be developed. All Bixal Solutions employees are aware of the procedures outlined herein.
+**Note:**  This Incident Response Plan applies to systems for which Bixal Solutions and third party
+contractors. Individual systems may have a tailored version of this Privacy Incident Response
+Plan or in some cases a completely unique Privacy Incident Response Plan will be developed.
+All Bixal Solutions employees are aware of the procedures outlined herein.
 
 ## Overview
 
-This Privacy Incident Response Plan provides baseline guidance for the Bixal Solutions Team's process for responding to privacy incidents of a Bixal Solutions IRCP
-managed system, product or service ("system"). It outlines roles and responsibilities during and after incidents, and it lays out the steps we'll take to resolve them.
+This Privacy Incident Response Plan provides baseline guidance for the Bixal Solutions Team's
+process for responding to privacy incidents of a Bixal Solutions IRCP
+managed system, product or service ("system"). It outlines roles and
+responsibilities during and after incidents, and it lays out the steps Bixal
+take to resolve them.
 
 ## Definitions
 
@@ -123,7 +127,7 @@ As soon as a privacy incident is discovered, Bixal personnel have an obligation 
 the privacy incident to their supervisor, program manager, information security officer,
 or responsible IT Help Desk. If the privacy incident is reported to the program
 manager, supervisor, or IT Help Desk, the privacy incident must be referred or reported to the
-information security officer or director of technology.
+information security officer or Director of Technology.
 
 Once discovered, Bixal personnel should report privacy incidents that are either suspected and/or
 confirmed. A privacy incident involving PII should be viewed as the loss of control, compromise,
@@ -168,7 +172,7 @@ information that will facilitate the handling of the incident as well as actions
 the incident.
 
 Once the SEN has been established, the responsible information security officer, program manager,
-and director of technology will continue to coordinate to gather information about the privacy incident.
+and Director of Technology will continue to coordinate to gather information about the privacy incident.
 The information security officer evaluates this information in
 context and determines whether or not the facts support the conclusion that a privacy incident may
 have occurred. As part of the initial assessment, the information security officer will
@@ -283,7 +287,7 @@ civil liberties, or public health and safety of the American people. An unauthor
 unauthorized deletion of, unauthorized exfiltration of, or unauthorized access to 100,000 or more
 individuals’ PII constitutes a major privacy incident.
 
-The director of technology, in coordination with the BISO, will first determine whether the
+The Director of Technology, in coordination with the BISO, will first determine whether the
 privacy incident is considered a “major incident” that involves PII. There are several criteria to
 evaluate in this definition and there may be instances in which a privacy
 incident may meet the criteria above but not affect 100,000 or more individuals’ PII. Those instances
@@ -295,7 +299,53 @@ look at applying the classification of the privacy incident only because the 100
 To facilitate this determination, the information security officer will identify the system of
 records notice (SORN), privacy impact assessment (PIA), and/or other existing compliance
 documents that may apply to the compromised PII or SPII. The information security officer will
-provide this information to the director of technology at the
+provide this information to the Director of Technology at the
 Bixal Information Security Office.
-Once the determination has been received, the director of technology, in coordination with the
+Once the determination has been received, the Director of Technology, in coordination with the
 CISO and COR, will validate whether the privacy incident is a major incident that involves PII.
+
+## Congressional Notification
+
+If the privacy incident is validated as a major incident that involves PII, the Bixal Director of
+Technology must notify appropriate congressional committees no later than seven days after
+the date on which DHS has reasonably concluded that a major privacy incident occurred. The DHS Chief
+Privacy Officer must supplement that seven day notification to Congress with updates within
+a reasonable period of time. In addition, DHS Chief Privacy Officer must also supplement the seven day
+notification with a report no later than 30 days after a major privacy incident is discovered. The DHS
+Chief Privacy Officer will coordinate with OLA, as a member of the Breach Response Team, as
+described below, for such notification to these committees.
+
+## Assessing the Risk of Harm to Individuals Impacted by a Privacy Incident (Risk Assement)
+
+All privacy incidents require a technical investigation, in addition to the facts gathered
+at the initial incident intake, in order to collect the information required to conduct a
+risk assessment and propose appropriate mitigations.
+In any privacy incident involving PII, DHS must assess the risk of harm to individuals
+impacted by a privacy incident. This assessment is based on three factors:
+
+* Nature and sensitivity of the PII
+* Likelihood of access and use of PII
+* Type of Privacy Incident
+
+While the Director of Technology is ultimately accountable for ensuring the assessment of the risk
+of harm to individuals, the following considerations and evaluations will be carried out for major or
+minor privacy incidents either by the BRT (overseen by the DHS Privacy Office, Director of Privacy
+Incidents), or the Component Privacy Officer/PPOC. A thorough risk assessment will help identify
+appropriate mitigation measures. The assessment also helps support the production of materials that
+may be needed to facilitate notification. It is important to remember, however, that the results of
+the assessment and any recommendations must be provided to the DHS Chief Privacy Officer, who
+provides recommendations to the Secretary regarding the issuance of notification to affected
+individuals, including the timeliness, contents, means, sources, and general appropriateness of the
+notification.
+The range of potential harms associated with the loss or compromise of PII is broad. A number of
+possible harms associated with the loss or compromise of PII must be considered. Such harms may
+include:
+ The effect of a breach of confidentiality or fiduciary responsibility
+ The potential for blackmail
+ The disclosure of private facts, mental anguish, and emotional distress
+ The disclosure of address information for victims of abuse
+ The potential for secondary uses of the information that could result in fear or uncertainty
+ The unwarranted exposure leading to humiliation or loss of self-esteem
+Finally, as with other tasks, it is also important for the Component Privacy Officer/PPOC to update
+the enterprise incident database as to the risk assessment findings.
+
