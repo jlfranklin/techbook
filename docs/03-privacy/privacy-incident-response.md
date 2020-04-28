@@ -147,7 +147,7 @@ person without an authorized need to know.
 
 ### Privacy Incident Reporting: Initial Intake and Starting a Security Event Investigation and Notification (SEIN)
 
-When the privacy incident is identified, the project manager and information
+When the privacy incident is identified, the component manager and information
 security officer will need to collect specific information about the
 nature of the privacy incident to create a suspected or confirmed security event
 notification (SEN). The SEN, may potentially be distributed to:
@@ -189,7 +189,7 @@ also consult with the BISO. The information security officer will need to determ
 whether Sensitive PII was involved. In addition to Sensitive PII, the information
 security officer should consult the program manager to determine if certain financial
 and/or certain health information was involved, if the incident was caused by a contractor,
-if the incident involved information from multiple projects, or if criminal activity is suspected.
+if the incident involved information from multiple components, or if criminal activity is suspected.
 Incident assessment factors include:
 
 1. **Sensitive PII**:
@@ -212,7 +212,7 @@ Incident assessment factors include:
     and harm, consider the data element(s) in light of their context and the broad range of
     potential harms flowing from their disclosure to unauthorized individuals.
 
-2. **Contractor Obligations**:
+1. **Contractor Obligations**:
 
     The PICR applies to all Bixal personnel, including contractors. Contractors are obligated to
     comply with all Bixal privacy policies and procedures. For the purposes of privacy incident
@@ -223,53 +223,79 @@ Incident assessment factors include:
     continue to consult and work through the COR regarding any matters regarding the contractor.
     At this stage, the COR and the information security officer should review the contract
     for inclusion of the contractor’s breach notification or incident response responsibilities.
-    
-iii) Financial Information
-The information security officer should also determine, to the extent possible and at
-the earliest stage of the privacy incident, whether the privacy incident involves governmentissued credit cards or individuals’ financial information, such as bank account numbers used
-for direct deposit of credit card reimbursements, or any benefit information. If so, the
-information security officer should immediately notify the Component or DHS Office
-of the Chief Financial Officer (CFO). The Component or DHS CFO will notify the affected
-bank(s), the Office of the Chief Human Capital Officer (CHCO), and the Component CHCO.
-The information security officer will update the Privacy Incident Report to reflect the
-CFO’s notification of the affected bank(s).
-Escalation to the CFO is warranted when the privacy incident involves CFO Designated
-Financial Systems. DHS CFO Designated Financial Systems are systems that require additional
-management accountability and effective internal control over financial reporting.
-16. The Homeland Security Acquisition Regulation requires clauses be included in DHS solicitations and contracts to
-address contractor responsibilities for reporting and responding to breaches. These HSAR clauses include
-3052.204-70, Security Requirements for Unclassified Information Technology Resources (June 2006); 3052.204-71,
-Contractor Employee Access (Sept. 2012); and special clauses Safeguarding of Sensitive Information (Mar.
-2015) and Information Technology Security and Privacy Training (Mar. 2015) from HSAR Class Deviation 15-01,
-Safeguarding of Sensitive Information.
-DHS Privacy Policy Directive 047-01-008 Privacy Incident Handling Guidance | 17
-The DHS Chief Privacy Officer may also request the Component or DHS CFO and CHCO to
-be included as representatives to the Breach Response Team (BRT) as necessary.
-iv) Health Information
-The information security officer should also determine, to the extent possible and at
-the earliest stage of the privacy incident, whether the privacy incident involves individually
-identifiable health information, such as demographic data, that relates to:17
- the individual’s past, present, or future physical or mental health or condition,
- the provision of health care to the individual, or
- the past, present, or future payment for the provision of health care to the individual, and
-that identifies the individual or for which there is a reasonable basis to believe can be
-used to identify the individual.
- individually identifiable health information includes many common identifiers (e.g., name,
-address, birth date, Social Security number).
-Incidents involving HIPAA are to be reported to the U.S. Department of Health and Human
-Services Office for Civil Rights as necessary.
-v) Multiple Components
-The information security officer should also determine whether the privacy incident
-involves PII from multiple Components. The Privacy Incident Report should accurately reflect
-the information and Components affected as well as being designated in the ECOP as a
-multiple component privacy incident. The information security officer may also work
-through the DHS Chief Privacy Officer and DHS Privacy Office to communicate with the other
-Component Privacy Officers/PPOCs about the privacy incident to ensure they are aware of
-the incident and the mitigation and remediation in the Components is consistent.
-Privacy Incident Assessment: US-CERT - DHS SOC and Official Notice to DHS Officials
-When the results of the Incident Assessment confirm a privacy incident, escalation is recommended,
-and the status should change in the ECOP from a SEN to an Incident. Further, the DHS SOC must
-transmit the Incident Report to the United States Computer Emergency Readiness Team (US-CERT),
-which serves as the designated central reporting organization and repository within the Federal
-Government for federal incident data and automatically forwards notification to OMB as well as
-appropriate authorities.
+
+1. **Financial Information:**
+
+    The information security officer should also determine, to the extent possible and at
+    the earliest stage of the privacy incident, whether the privacy incident involves
+    governmentissued credit cards or individuals’ financial information, such as bank
+    account numbers used for direct deposit of credit card reimbursements, or any benefit
+    information. If so, the information security officer should immediately notify the the Bixal
+    chief financial officer or federal COR representitive. The BISO will notify the affected bank(s)
+    or Bixal human resources team. The information security officer will update the Privacy Incident
+    Report to reflect the CFO’s notification of the affected bank(s). Escalation to the
+    CFO is warranted when the privacy incident involves CFO Designated Financial Systems.
+
+1. **Health Information:**
+
+    The information security officer should also determine, to the extent possible and at
+    the earliest stage of the privacy incident, whether the privacy incident involves individually
+    identifiable health information, such as demographic data, that relates to:
+
+    * the individual’s past, present, or future physical or mental health or condition,
+    * the provision of health care to the individual,
+    * the past, present, or future payment for the provision of health care to the individual, and
+    that identifies the individual or for which there is a reasonable basis to believe can be
+    used to identify the individual.
+    * individually identifiable health information includes many common identifiers (e.g., name,
+    address, birth date, Social Security number).
+
+    Incidents involving HIPAA are to be reported to the U.S. Department of Health and Human
+    Services Office for Civil Rights as necessary.
+
+1. **Multiple Components:**
+
+    The information security officer should also determine whether the privacy incident
+    involves PII from multiple Components. The Privacy Incident Report should accurately reflect
+    the information and Components affected. The information security officer may also work
+    through the BISO to facilitate communication with the other
+    Component information security officers about the privacy incident to ensure they are aware of
+    the incident and the mitigation and remediation in the Components is consistent.
+
+### Privacy Incident Reporting: Distinguishing between Minor and Major Incidents
+
+Once the assessment is complete, the information security officer determines
+whether the privacy incident is a major incident, which requires congressional
+notifcation, or a minor incident.
+A minor incident is defined as “an incident that due to proper functioning of a security control
+is not likely to impact the Bixal mission or a critical Federal assets. Minor incidents do not
+require immediate leadership notification. Further, a minor incident meets one or more of the
+following criteria:
+
+* The incident impacts the confidentiality, integrity, or availability of a non-critical system or
+non-sensitive data.
+* The incident relates to a minor policy violation.
+
+A privacy incident constitutes a major privacy incident when it involves PII that, if exfiltrated,
+modified, deleted, or otherwise compromised, is likely to result in demonstrable harm to the national
+security interests, foreign relations, or economy of the United States, or to the public confidence,
+civil liberties, or public health and safety of the American people. An unauthorized modification of,
+unauthorized deletion of, unauthorized exfiltration of, or unauthorized access to 100,000 or more
+individuals’ PII constitutes a major privacy incident.
+
+The director of technology, in coordination with the BISO, will first determine whether the
+privacy incident is considered a “major incident” that involves PII. There are several criteria to
+evaluate in this definition and there may be instances in which a privacy
+incident may meet the criteria above but not affect 100,000 or more individuals’ PII. Those instances
+are no less significant any may indeed warrant the convening of the BISO.
+
+It is for this reason that during the incident assessment phase, the Component information security
+officer be cognizant of whether the incident meets the definition of a major privacy incident and not
+look at applying the classification of the privacy incident only because the 100,000 affected individuals’ PII threshold is met.
+To facilitate this determination, the information security officer will identify the system of
+records notice (SORN), privacy impact assessment (PIA), and/or other existing compliance
+documents that may apply to the compromised PII or SPII. The information security officer will
+provide this information to the director of technology at the
+Bixal Information Security Office.
+Once the determination has been received, the director of technology, in coordination with the
+CISO and COR, will validate whether the privacy incident is a major incident that involves PII.
