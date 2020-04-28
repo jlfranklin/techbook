@@ -617,7 +617,7 @@ incident, and identify and lessen the potential harm that the loss, compromise, 
 may have on affected individuals.
 
 Once the risk of harm has been thoroughly assessed, the Information Security Officer
-should identify and recommend appropriate mitigations to the DHS Chief Privacy Officer, in the case
+should identify and recommend appropriate mitigations to the Bixal Director of Technology, in the case
 of a major privacy incident, or to his/her Component in the case of a minor privacy incident.
 Mitigations may range from technical countermeasures, which must be coordinated through the
 Bixal SOC or responsible SOC, to non-technical activities, such as notification and/or credit
@@ -647,9 +647,272 @@ not be identified or identifiable in the Privacy Incident Report. The privacy in
 should simply contain a statement that corrective or disciplinary action was taken without
 providing identifiable information about the employee(s) involved and without providing
 any specifics. The respective Component People and Culture Office must maintain a record of
-all disciplinary or corrective actions taken against DHS personnel that arise out of a privacy
+all disciplinary or corrective actions taken against Bixal personnel that arise out of a privacy
 incident.
 * Revisions to policies and procedures to minimize or eliminate the use of PII when possible.
-* Contractors must comply with Department policies and follow all aspects of the FAR clauses 
+* Contractors must comply with Department policies and follow all aspects of the FAR clauses
 and/or privacy provisions that are included in the contract, such as allowing Department
 inspection provisions and post-incident activities.
+
+## Notification for a Privacy Incident
+
+In the case of a major privacy incident, once the Component Information Security Officer has
+conducted the risk assessment and has identified potential mitigations, recommendations should be
+provided to the Bixal Director of Technology in the case of a major privacy incident and the privacy
+incident report should be updated.
+In the context of a major privacy incident, and as part of the effort to ensure substantive and
+effective notification, the Director of Technology will solicit input from the BISO, and the Component Information Security Officer in assessing the following issues:
+
+* Timeliness of the Notification
+* Source of the Notification
+* Contents of the Notification
+* Means of Providing the Notification
+* Who Receives Notification: Public Outreach in Response to a Privacy Incident
+
+After receiving input from the Component Information Security Officer, the Bixal Director of
+Technology provides recommendations to the BISO and Component Information Security Officer regarding
+issuance of notification to affected individuals, including timeliness, contents, means, sources,
+and general appropriateness of notification; and elevates matters to the BISO
+if the component Information Security Officer, component stakeholders, or Federal Government requires
+additional guidance or to resolve conflicts.
+In the case of a minor privacy incident, once the Component Information Security Officer has conducted
+the risk assessment and identified potential mitigations, the Privacy Incident Report should be
+updated. The assessment regarding notification to the affected individual(s) will take into account
+many, if not all, of the same issues considered in notification for major privacy incidents.
+
+The Privacy Incident Report should also detail a recommendation regarding notification to
+affected individuals.
+
+1. Timeliness of Notification for a Privacy Incident
+
+   Before notification may be issued, Bixal must first determine the scope of the privacy incident,
+   and if applicable, restore the reasonable integrity of the system or information compromised.
+   Affected individuals shall be notified without unreasonable delay following the discovery of a
+   major privacy incident, consistent with the needs of law enforcement and national security,
+   and any measures necessary for Bixal to assess the scope of the privacy incident and
+   implement containment measures.
+
+   In some circumstances, law enforcement or national security considerations may require a
+   delay in notification if it impedes the investigation of the privacy incident, as permitted by
+   OMB Memorandum M-17-12.28 Decisions to delay notification should be made by the Bixal
+   BISO in **writing** (emphasis added).
+
+1. Source of Notification for a Major Privacy Incident
+
+   As a general rule, notification to affected individuals for all minor privacy incidents will be
+   issued by the Component Head or the Component Information Security Officer, if appropriate; or if
+   warranted by the circumstances, the Director of Technology or BISO may
+   issue the notice to individuals affected by the privacy incident.
+
+   In the case of a major privacy incident, the Bixal Director of Technology provides
+   recommendations to the BISO issuance of notice, including timeliness,
+   content, means, sources and general appropriateness, as described above.
+   When the privacy incident involves a federal contractor or a public-private partnership
+   maintaining PII on behalf of the Component, Bixal is ultimately responsible for ensuring that
+   any notification and corrective action is taken by the contractor. The Bixal Director
+   of Technology and BISO should be engaged in all contractor-related notification
+   and corrective action.
+
+1. Contents of the Notification for a Privacy Incident
+
+   With a minor privacy incident, the Component Information Security Officer will leverage existing
+   notification templates and address the following factors, if appropriate. In the case of a
+   major privacy incident, the following elements, amended for the circumstances, should be
+   included:
+
+   * Brief description of what happened, including the date(s) of the privacy incident
+   and of discovery.
+   * To the extent possible, a description of the types of personal information involved
+   in the privacy incident (e.g., full name, SSN, date of birth, home address, account
+   number, Alien Registration Number/file).
+   * Statement whether the information was encrypted or protected by other means,
+   when determined that such information would be beneficial, and would not
+   compromise the security of the system.
+   * Steps/Guidance individuals can take to protect themselves from potential harm.
+   * What the Component or BISO is doing to investigate the privacy incident, mitigate
+   losses, and protect against a likely recurrence.
+   * Who affected individuals should contact at the Component or Bixal for more
+   information, including a telephone number, email address, or postal address.
+
+   In addition to the specifics of the notification, it is also important to consider supplemental
+   materials that may facilitate substantive and effective notice. In the event of a major
+   privacy incident, the following factors may also need to be considered:
+
+   * **Translation of Notice into Other Languages or Formats:**
+
+     Effective privacy incident handling necessitates that individuals affected by the
+     privacy incident understand the importance of the notification. Therefore, if the
+     Component’s records show that the affected individuals are not English speaking,
+     notice should also be provided in the appropriate language(s). If agencies have
+     knowledge that the affected individuals are not English speaking, or require
+     translation services, the Component should also provide notification in the
+     appropriate languages to the extent feasible.
+     Special consideration should be given to provide notification to individuals who are
+     visually or hearing impaired consistent with Section 508 of the Rehabilitation Act of
+     1973. Accommodations may include establishing a telecommunications device for
+     the deaf (TDD) or posting a large type notice on the Bixal or affected Component’s
+     Internet or Intranet website.
+
+   * **Frequently Asked Questions**
+
+     A Frequently Asked Questions (FAQ) format on the component intranet or
+     public webpage may be beneficial because this information can be easily
+     updated, contain links to more information, provide more tailored information than
+     the formal notification, and can be easily translated into multiple languages. The
+     Internet webpage also helps support requirements to provide information to visually
+     impaired individuals as required by Section 508 of the Rehabilitation Act.
+
+   * **Call Center**
+
+     For a privacy incident that affects a large number of individuals, or as otherwise
+     appropriate, agencies should establish toll-free call centers staffed by trained
+     personnel to handle inquiries from the affected individuals.
+
+1. Methods/Means of Providing the Notification
+
+      An important aspect of substantive and effective notification for a privacy incident is the
+      selection of the method for providing notification. The best method for providing notification
+      will depend on the number of individuals affected, the available contact information for the
+      affected individuals, and the urgency with which the individuals need to receive the
+      notification. The following examples are types of notices that may be considered:
+
+   * **First-Class Mail**
+
+     First-class mail notification to the last known mailing address of the individual in Bixal
+     records should be the primary means to provide notice. When the Component has
+     reason to believe the address is no longer current, it should take reasonable steps to
+     update the address by consulting with agencies such as the U.S. Postal Service.
+     The notification should be sent separately from any other mailing so that it is
+     conspicuous to the recipient. If the Component that experienced the privacy
+     incident uses another Component to facilitate mailing, it should take care to ensure
+     that the Component that suffered the loss is identified as the sender. The front of the
+     envelope should be labeled to alert the recipient to the importance of its contents
+     and should be marked with the name of either Bixal or with the Federal Components assistance,
+     the federal agency itself to reduce the likelihood the recipient thinks
+     it is advertising mail. Components should anticipate that some mail will be
+     returned as undeliverable and should have procedures in place for how to provide
+     a secondary notification.
+
+   * **Telephone**
+
+     Telephone notification may be appropriate in those cases when urgency may
+     dictate immediate and personal notification, and/or when a limited number of
+     individuals are affected. Telephone notification, however, should be followed by
+     written notification by first-class mail.
+
+   * **Email**
+
+     While the Bixal Director of Technology does not recommend email as the primary form
+     of notification, in limited circumstances it may appropriate. Email notification,
+     especially to or from a non-Government email address, is not recommended due to
+     the high risk of malicious email attacks that are often launched when attackers hear
+     about a privacy incident (e.g., phishing). Emails often do not reach individuals
+     because they are automatically routed to spam or junk mail folders. Individuals who
+     receive notifications via email are often uncertain of the legitimacy of the email and
+     will not open the notification.
+     If the individuals affected by a privacy incident are internal to the Department, it may
+     be appropriate for Bixal to use an official email address to notify a small number of
+     employees, contractors, detailees, or interns via their official email addresses.
+
+   * **Substitute Notice**
+
+     In the event there is not sufficient contact information to provide notification, or in the
+     case of supplemental notification for a privacy incident to keep affected individuals
+     informed as to new facts, the Bixal Director of Technology may choose substitute notice.
+     This type of notice may also be beneficial when Bixal or the Component needs to
+     provide an immediate or preliminary notification in the wake of a high-profile privacy
+     incident when notification is particularly time-sensitive. A substitute notification should
+     consist of a conspicuous posting of the notification on the home page of Bixal’s or the
+     Component’s Internet or Intranet website and/or notification to major print and
+     broadcast media, including major media in areas where the affected individuals
+     reside. Notification to media should include a toll-free phone number and/or an
+     email address that an individual can use to learn whether or not his or her personal
+     information is affected by the privacy incident.
+     In instances when there is an ongoing investigation and the facts and circumstances
+     of a privacy incident are evolving, Components should consider whether it is
+     appropriate to establish an ongoing communication method for interested individuals to automatically receive updates. Depending on the individuals affected
+     and the specific circumstances of a privacy incident, it may be necessary for
+     Components to provide notifications in more than one language.
+
+   * **Accommodations/Special Considerations**
+
+     When a privacy incident affects a vulnerable population, Bixal or the Component
+     may need to provide a different type of notification to that population, or provide a
+     notification when it would not otherwise be necessary.
+     There may be instances when a Component provides notification to individuals other
+     than those whose PII was compromised. For example, when the individual whose
+     information was compromised is a child, the Component may provide notification to
+     the child’s legal guardian(s). Special care may be required to determine the
+     appropriate recipient in these cases.
+
+   * **Webpage**
+
+     The webpage posting should provide:
+
+     * Summary of incident with a clear introduction (who, what, when, why,
+     where, how) that articulates what has happened and what Bixal is asking
+     of the public (or Bixal employees);
+     * A background section with more detailed info;
+     * A resources section with tools and helpful information resources for people
+     to reference;
+     * FAQs; and
+     * Call center number, if applicable
+
+     Component Information Security Officers may want to also consider developing and
+     publishing a page on their Component’s Intranet page with the
+     same information.
+
+1. Who Receives Notification
+
+   The final consideration in the notification process for a major or minor privacy incident is to
+   whom Bixal and its Components should provide notification beyond the affected individuals,
+   such as the media, and/or other third parties affected by the privacy incident or the
+   notification. Unless notification to individuals is delayed or barred due to law enforcement or
+   national security reasons, all affected individuals should receive prompt notification.
+   Bixal and its Components should consider the following guidelines when communicating with
+   third parties regarding a privacy incident:
+
+   * Media
+
+     The decision to notify the media regarding a privacy incident requires careful
+     planning and execution so as not to unnecessarily alarm the public. When
+     appropriate, the media should be notified as soon as practicable after the discovery
+     of an incident and informed that a handling plan, including the notification, has been
+     developed. Notification should focus on providing information, including links to
+     resources, to aid the public in its response to the privacy incident. In addition, the FTC
+     should be offered as a resource for affected individuals to confirm the legitimacy of
+     the notification. Law enforcement or national security agencies may request that Bixal
+     or its Component(s) delay notification as described above. To the extent possible,
+     prompt public media disclosure is generally preferable because delayed notification
+     may erode public trust. Contact with the media should be coordinated through Bixal
+     Office of Public Affairs or the Component’s Office of Public Affairs.
+     Bixal can post information about the privacy incident and notification in a prominent
+     location on the Bixal homepage or the Component’s Internet or Intranet website as
+     soon as possible after the discovery of a privacy incident, and the decision to provide
+     notification to the affected individuals. The posting should include a link to FAQs and
+     other relevant materials regarding the incident.
+
+   * **Third Parties Affected by the Privacy Incident**
+
+     The Component Head and Component Information Security Officer for the affected
+     Component must work in consultation with the Bixal Director of Technology to determine
+     whether other public and private sector agencies should be notified on a need to
+     know basis, particularly those who may be affected by the privacy incident, or may
+     play a role in mitigating the potential harms. For example, a privacy incident involving
+     financial information may warrant notification to financial institutions through the
+     federal banking agencies and the Federal Trade Commission. In those instances, it is
+     imperative that Bixal Components and personnel avoid further unnecessary disclosure
+     of personal information, and limit the disclosure of Sensitive PII to those with a
+     legitimate need to know.
+
+   * **Other Federal Government Agencies and Congress**
+
+     Bixal should be prepared to respond to inquiries from other governmental agencies
+     such as the Government Accountability Office (GAO) and Congress. The Component
+     Head, Bixal Director of Technology will work closely to determine
+     when notification of the incident should be provided to congressional oversight
+     committee chairs. With respect to a major privacy incident, the Bixal Office of
+     Information Security with the Bixal Director of Technology,
+     will coordinate so that notification to the appropriate committee chair(s) is issued
+     either in advance of or along with the issuance of a press release or notification to
+     affected individuals.
