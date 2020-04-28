@@ -916,3 +916,14 @@ affected individuals.
      will coordinate so that notification to the appropriate committee chair(s) is issued
      either in advance of or along with the issuance of a press release or notification to
      affected individuals.
+
+## Closure
+
+Once mitigation for the privacy incident is completed, the Component Information Security
+Officer or the responsible SOC should update the Privacy Incident Report
+in the ECOP and recommend incident closure. This recommendation is subject to review
+by the Bixal Information Security Office and Director of Technology. However, the ultimate
+decision to close the incident rests with the BISO.
+Until this determination is reached the Bixal Information Security Office or Director of
+Technology has closed the incident, the incident will remain open for review or
+further incident handling.
