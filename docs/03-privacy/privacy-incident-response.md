@@ -307,7 +307,7 @@ CISO and COR, will validate whether the privacy incident is a major incident tha
 ## Congressional Notification
 
 If the privacy incident is validated as a major incident that involves PII, the Bixal Director of
-Technology must notify appropriate congressional committees no later than seven days after
+Technology or BISO must notify appropriate congressional committees no later than seven days after
 the date on which Bixal has reasonably concluded that a major privacy incident occurred.
 The Bixal Director of Technology must supplement that seven day notification to Congress
 with updates withina reasonable period of time. In addition, Bixal Director of Technology
@@ -536,7 +536,8 @@ unknown.
         wrong email address or a contractor storing personnel files in a shared folder that the
         contractor thought was access-controlled but was not.
         It may be impossible or impractical to determine whether a privacy incident was
-        intentional or unintentional. In these instances, the Component Information Security Officer should operate on the assumption that the privacy incident was intentional. For
+        intentional or unintentional. In these instances, the Component Information Security
+        Officer should operate on the assumption that the privacy incident was intentional. For
         example, if an employee realizes her mobile device is missing, it may be that it was
         stolen intentionally or that she dropped it accidentally. Similarly, a shipment
         containing A-Files that never arrives at its destination may have been unintentionally
@@ -582,7 +583,8 @@ unknown.
 
 Once the Component Information Security Officer and/or the responsible SOC opens the SEN, the
 responsible SOC will then assign a priority to the incident in accordance with the policies
-outlined in this document and the Information Security Officer will consider the Standards for Categorization of Privacy Incidents detailed below is assigning
+outlined in this document and the Information Security Officer will consider the
+Standards for Categorization of Privacy Incidents detailed below is assigning
 a risk of harm to the incident.
 
 The likely risk of harm is LOW if the Privacy Incident:
@@ -607,3 +609,47 @@ unfairness to any individual on whom information is maintained;
 * Could have a severe or catastrophic adverse effect on organizational operations
 or organizational assets; or,
 * Sensitive PII is always designated as moderate or high impact.
+
+## Mitigation
+
+Mitigation is an essential aspect of Bixals effort to contain the cause of the major or minor privacy
+incident, and identify and lessen the potential harm that the loss, compromise, or misuse of the PII
+may have on affected individuals.
+
+Once the risk of harm has been thoroughly assessed, the Information Security Officer
+should identify and recommend appropriate mitigations to the DHS Chief Privacy Officer, in the case
+of a major privacy incident, or to his/her Component in the case of a minor privacy incident.
+Mitigations may range from technical countermeasures, which must be coordinated through the
+Bixal SOC or responsible SOC, to non-technical activities, such as notification and/or credit
+monitoring to the affected individuals and employee counseling, as well as to engagement with
+law enforcement entities. The Bixal SOC or responsible SOC will conduct technical countermeasures
+to address IT security issues relevant to the privacy incident, if appropriate.
+The Information Security Officer should also address the privacy ramifications of a
+privacy incident, focusing on preventing or minimizing any subsequent harm to affected individuals.
+As such, non-technical privacy mitigations will involve activity beyond the securing of the system
+(electronic or paper) and isolating the vulnerability.
+
+The Information Security Officer and BISO should include a broad range of mitigation strategies
+based on the nature and sensitivity of the PII involved. An effective response may call for
+disclosure of information regarding a privacy incident to those individuals affected by it,
+as well as to persons and entities in a position to cooperate, either by assisting in
+notification to affected individuals or playing a role in preventing or minimizing harms from the privacy incident. Mitigations may include:
+
+* Notification to affected individuals, the public, media, and other Government entities
+(e.g., Congress).
+* Removing information from an Internet or Intranet page.
+* Offering credit or identity monitoring services or providing information on such services to
+mitigate the misuse of the PII and identify patterns of suspicious behavior.
+* Training and awareness for staff on best practices to safeguard Sensitive PII.
+* Disciplinary or corrective action, including counseling for Bixal employees. NOTE: any Bixal
+personnel subject to corrective or disciplinary action arising out of a privacy incident must
+not be identified or identifiable in the Privacy Incident Report. The privacy incident report
+should simply contain a statement that corrective or disciplinary action was taken without
+providing identifiable information about the employee(s) involved and without providing
+any specifics. The respective Component People and Culture Office must maintain a record of
+all disciplinary or corrective actions taken against DHS personnel that arise out of a privacy
+incident.
+* Revisions to policies and procedures to minimize or eliminate the use of PII when possible.
+* Contractors must comply with Department policies and follow all aspects of the FAR clauses 
+and/or privacy provisions that are included in the contract, such as allowing Department
+inspection provisions and post-incident activities.
