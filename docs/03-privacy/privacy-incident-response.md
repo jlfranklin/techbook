@@ -3,7 +3,7 @@
 ## Applicability
 
 **Note:**  This Incident Response Plan applies to systems for which Bixal Solutions and third party
-contractors. Individual systems may have a tailored version of this Privacy Incident Response
+contractors. Individual components may have a tailored version of this Privacy Incident Response
 Plan or in some cases a completely unique Privacy Incident Response Plan will be developed.
 All Bixal Solutions employees are aware of the procedures outlined herein.
 
@@ -11,7 +11,7 @@ All Bixal Solutions employees are aware of the procedures outlined herein.
 
 This Privacy Incident Response Plan provides baseline guidance for the Bixal Solutions Team's
 process for responding to privacy incidents of a Bixal Solutions IRCP
-managed system, product or service ("system"). It outlines roles and
+managed system, product or service ("component"). It outlines roles and
 responsibilities during and after incidents, and it lays out the steps Bixal
 take to resolve them.
 
