@@ -22,13 +22,23 @@ peers without creating impedance.
 ### Laptop Variants
 
 * Mac Book Pro 16"
-  * Insert specs here.
+  * Intel Core i7 CPU
+  * 16 GB RAM
+  * 512 GB SSD
+  * AMD Radeon Pro 5300M GPU
 * Mac Book Pro 13"
-  * Insert specs here.
+  * Intel Core i5 CPU
+  * 8 GB RAM
+  * 256 GB SSD
 * Generic 14" or 15" Windows Based Laptop
-  * Insert specs here.
+  * Intel Core i5 CPU
+  * 8 GB RAM
+  * 256 GB SSD
+  * Recommended Devices:
+    * [Thinkpad T490](https://www.lenovo.com/us/en/laptops/thinkpad/thinkpad-t-series/T490/p/22TP2TT4900)
+    * [Dell XPS 15](https://www.dell.com/en-us/shop/computer-deals-electronics-on-sale/xps-15-laptop/spd/xps-15-7590-laptop/xnber5cr652ps)
 * Generic 14" or 15" Linux Based Laptop
-  * Intel Core i7 7500U (or similar)
+  * Intel Core i7 7500U CPU (or similar)
   * 32 GB ram
   * 1TB SDD
   * Recommended device: [Security Focused Librem 15](https://shop.puri.sm/shop/librem-15/)
@@ -38,10 +48,15 @@ peers without creating impedance.
 Bixal will allow purchases from the following productivity purchase
 assuming you have availability from your accessory budget.
 
-* Mouse and track pads
-  * Insert current models
-* Keyboards and input
-  * Insert models here
+* Mouse and Trackpad
+  * [Apple Magic Mouse 2](https://www.apple.com/shop/product/MLA02LL/A/magic-mouse-2-silver)
+  * [Logitech MX Anywhere 2S](https://www.logitech.com/en-us/product/mx-anywhere-2s-flow)
+  * [Apple Magic Trackpad 2](https://www.apple.com/shop/product/MJ2R2LL/A/magic-trackpad-2-silver)
+  * [Kensington Expoert Trackball](https://www.kensington.com/en-gb/p/products/control/trackballs/expert-mouse-wireless-trackball/)
+* Keyboards
+  * [Magic Keyboard](https://www.apple.com/shop/product/MLA22LL/A/magic-keyboard-us-english)
+  * [Keychron K2](https://www.keychron.com/products/keychron-k2-wireless-mechanical-keyboard)
+  * [Das Model S Professional](https://www.daskeyboard.com/model-s-professional/)
 * Earbuds and Headphones
 * PIV Card Reader
 
