@@ -28,7 +28,10 @@ peers without creating impedance.
 * Generic 15" Windows Based Laptop
   * Insert specs here.
 * Generic 15" Linux Based Laptop
-  * Insert specs here.
+  * Intel Core i7 7500U (or similar)
+  * 32 GB ram
+  * 1TB SDD
+  * Recommended device: [Security Focused Librem 15](https://shop.puri.sm/shop/librem-15/)
 
 ### Accessories
 
@@ -40,6 +43,7 @@ assuming you have availability from your accessory budget.
 * Keyboards and input
   * Insert models here
 * Earbuds and Headphones
+* PIV Card Reader
 
 ### Roles and Default Hardware
 
@@ -56,7 +60,7 @@ they may follow the steps below to request a different package.
   * Generic 15" Linux Based Laptop
   * Generic 15" Windows Based Laptop
 * Systems Administrator
-  * Generic 15" Linux Based Laptop
+  * Generic 15" Linux Based Laptop (See Note on Yubikeys below)
 * Quality Assurance
   * Generic 15" Windows Based Laptop
 * Project Manager
@@ -64,6 +68,14 @@ they may follow the steps below to request a different package.
 * Designer
 * Video Editor
 * Etc.
+
+### Yubikeys
+
+Yubikeys can be provided on request to those with access to critical systems.
+Sysadmin roles should be assigned yubikeys by default as they will always
+have access to critical systems.
+All yubikeys should be FIPS 140-2 validated but can be USB-C or USB-A
+depending on the users preferences.
 
 ## Requesting hardware
 
