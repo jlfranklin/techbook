@@ -52,7 +52,7 @@ assuming you have availability from your accessory budget.
   * [Apple Magic Mouse 2](https://www.apple.com/shop/product/MLA02LL/A/magic-mouse-2-silver)
   * [Logitech MX Anywhere 2S](https://www.logitech.com/en-us/product/mx-anywhere-2s-flow)
   * [Apple Magic Trackpad 2](https://www.apple.com/shop/product/MJ2R2LL/A/magic-trackpad-2-silver)
-  * [Kensington Expoert Trackball](https://www.kensington.com/en-gb/p/products/control/trackballs/expert-mouse-wireless-trackball/)
+  * [Kensington Expert Trackball](https://www.kensington.com/en-gb/p/products/control/trackballs/expert-mouse-wireless-trackball/)
 * Keyboards
   * [Magic Keyboard](https://www.apple.com/shop/product/MLA22LL/A/magic-keyboard-us-english)
   * [Keychron K2](https://www.keychron.com/products/keychron-k2-wireless-mechanical-keyboard)
