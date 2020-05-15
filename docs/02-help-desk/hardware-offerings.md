@@ -25,9 +25,9 @@ peers without creating impedance.
   * Insert specs here.
 * Mac Book Pro 14"
   * Insert specs here.
-* Generic 15" Windows Based Laptop
+* Generic 14" or 15" Windows Based Laptop
   * Insert specs here.
-* Generic 15" Linux Based Laptop
+* Generic 14" or 15" Linux Based Laptop
   * Intel Core i7 7500U (or similar)
   * 32 GB ram
   * 1TB SDD
@@ -47,7 +47,7 @@ assuming you have availability from your accessory budget.
 
 ### Roles and Default Hardware
 
-Most roles at bixal fall into one high level descriptor(Developer,
+Most roles at Bixal fall into one high level descriptor(Developer,
 Sysadmin, Project Manager, Quality Assurance tester, etc). There
 is a default hardware package for most of these roles. During
 the hiring process People and Culture will reach out to the hiring
@@ -69,13 +69,14 @@ they may follow the steps below to request a different package.
 * Video Editor
 * Etc.
 
-### Yubikeys
+### YubiKeys 
 
-Yubikeys can be provided on request to those with access to critical systems.
-Sysadmin roles should be assigned yubikeys by default as they will always
+YubiKeys can be provided on request to those with access to critical systems.
+Sysadmin roles should be assigned YubiKeys by default as they will always
 have access to critical systems.
-All yubikeys should be FIPS 140-2 validated but can be USB-C or USB-A
-depending on the users preferences.
+
+All YubiKeys should be FIPS 140-2 validated but can be USB-C or USB-A
+depending on the users preferences. See [Yubico](https://www.yubico.com/products/yubikey-fips/) for details on the available options.
 
 ## Requesting hardware
 
