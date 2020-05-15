@@ -23,7 +23,7 @@ peers without creating impedance.
 
 * Mac Book Pro 16"
   * Insert specs here.
-* Mac Book Pro 14"
+* Mac Book Pro 13"
   * Insert specs here.
 * Generic 14" or 15" Windows Based Laptop
   * Insert specs here.
@@ -57,14 +57,14 @@ they may follow the steps below to request a different package.
 
 * Developer Approved Packages
   * MacBook Pro 16" (Default)
-  * Generic 15" Linux Based Laptop
-  * Generic 15" Windows Based Laptop
+  * Generic 14" or 15" Linux Based Laptop
+  * Generic 14" or 15" Windows Based Laptop
 * Systems Administrator
-  * Generic 15" Linux Based Laptop (See Note on Yubikeys below)
+  * Generic 14" or 15" Linux Based Laptop (See Note on Yubikeys below)
 * Quality Assurance
-  * Generic 15" Windows Based Laptop
+  * Generic 14" or 15" Windows Based Laptop
 * Project Manager
-  * Mac Book Pro 14"
+  * Mac Book Pro 13"
 * Designer
 * Video Editor
 * Etc.
