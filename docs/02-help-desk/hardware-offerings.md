@@ -78,13 +78,15 @@ they may follow the steps below to request a different package.
   * Generic 14" or 15" Linux Based Laptop (See Note on Yubikeys below)
 * Quality Assurance
   * Generic 14" or 15" Windows Based Laptop
-* Project Manager
-  * Mac Book Pro 13"
+* Program Manager, Sr Project Manager, Project Manager, Scrum Master
+  * Mac Book Pro 13" (Default)
+  * Generic 14" or 15" Windows Based Laptop (Consider this when on a
+  project that needs a PIV where you will not be assigned a Government computer)
 * Designer
 * Video Editor
 * Etc.
 
-### YubiKeys 
+### YubiKeys
 
 YubiKeys can be provided on request to those with access to critical systems.
 Sysadmin roles should be assigned YubiKeys by default as they will always
