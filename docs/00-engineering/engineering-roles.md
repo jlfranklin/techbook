@@ -2,18 +2,77 @@
 
 These are the engineering roles and responsibilities on a project team. This is how we role.
 
-Very important note: these are roles, not individuals. This means that:
+## Technical Roles Throughout Bixal
 
-* One individual could perform one role on one project and another role on another project (e.g. a TL on project A could also be a themer on project B).
-* Multiple roles on a project could be shared by the same person (e.g. the TL could also be the LE or LT) - this is actually the norm for many small and medium projects.
-* These roles are mostly for our internal communication purposes, so that we know who is responsible for what (even if that means that the same person is responsible of everything on a small project!). On bigger projects the importance of these roles becomes even more important, and is something that would be more client facing.
+* Back End Development Practice Area
+  * Principal Software Architect
+  * Technical Lead
+  * Senior Back End Developer
+  * Backend Developer
+  * Backend Intern
+* Presentation Practice Area
+  * Front End Lead
+  * Senior Front End Developer
+  * Front End Developer
+  * Theme Developer
+* Operations and Infrastructure Practice Area
+  * Principal Infrastructure and Operations Lead
+  * Site Reliability Engineer
+  * Infrastructure Architect
+  * System Administrator
+  * Technology Support Specialist
+* Front End Engineering
+  * JavaScript Lead
+  * Senior JavaScript Developer
+  * JavaScript Developer
+* Quality Assurance Practice Area
+  * Quality Assurance Engineer
+  * Quality Assurance Analyst
+* Compliance Practice Area
+  * Information Security Engineer
+  * Information Security Officer
+* Data Science and Analytics
+  * ROLES HERE
 
-## Tech Lead
+## Backend Developer
 
-Bixal Solutions technical team leaders are known as "Tech Leads". The Tech Lead is responsible for the ultimate technical success of the project. Tech Leads are involved in the entire project life cycle from estimating new business proposals, architecting solutions based on the Drupal framework and then leading development teams to ensure successful project completion. Our Tech Leads work in tandem with a Project Manager, who manages the project's overall progress and budget.
+A Backend Developer has fluency or near fluency in one or more languages. They are able to help collect requirements, design, and build components of applications.
+They are familiar with the tooling of the technology and framework of their assigned projects and can work on most component level tasks with minimal guidance.
 
-Project responsibilities through the project process:
+| Skill | Level |
+| --- | --- |
+| Agile mindset | Working |
+| Communication | Working |
+| Team collaboration | Working |
+| Working within constraints | Working |
+| Leadership and guidance | Working |
+| Strategic thinking | Awareness |
+| System Design | Awareness |
+| System Administration | Awareness |
+| Application Command Line Tools | Working |
+| Application Design | Practitioner |
+| Quality Code and Standards | Practitioner |
+| API Design | Working |
+| Identity and Role Management | Working |
+| Presentation | Awareness |
+| Service Oriented Architecture | Working |
+| Redundancy Patterns | Awareness |
 
+## Skills Description
+
+* **Agile mindset**. You know about agile methodology and can apply an agile mindset to all aspects of your work. You can work in a fast-paced, evolving environment and use an iterative method and flexible approach to enable rapid delivery. You are unafraid to take risks, willing to learn from mistakes and appreciate the importance of agile project delivery for digital projects in government. You can ensure the team knows what each other is working on and how this relates to practical government objectives and user needs.
+
+* **Communication**. You can communicate effectively across organizational, technical and political boundaries, understanding the context. You know how to make complex and technical information and language simple and accessible for non-technical audiences. You can apply foundational concepts of layout, spacing, color, type, iconography, use of imagery to ensure that content is legible and readable and that users see and understand interactions. You can advocate and communicate what a team does to create trust and authenticity and can respond to challenge.
+
+* **Team collaboration**. You can contribute to the work of the organization, building successful teams through understanding team styles and influencing as well as motivating team members. You know how to give and receive constructive feedback, facilitating the feedback loop. You can facilitate conflict resolution within teams, ensure the team is transparent and that the work is understood externally. You can help teams maintain a focus on delivery while being aware of the importance of professional development.
+
+* **Working within constraints**. You understand and can work within given constraints (including but not limited to technology and policy, and regulatory, financial and legal constraints). You know how to challenge constraints that can be changed. You can ensure compliance against constraints by adapting products and services where needed.
+
+* **Leadership and guidance**. You can interpret vision to lead on decisions. You can create a collaborative environment and sustain a good service. You can understand and resolve technical disputes across varying levels of complexity and risk. You can solve issues and unblock problems. You know how to drive teams and set the pace, ensuring teams are delivering. You can manage risk, including effectively managing and tracking the mitigation of risks. You can manage various dependencies across teams, departments and government as a whole.
+
+* **Strategic thinking**. You can take an overall perspective on business issues, events, activities and discuss their wider implications and long-term impact. This could include determining patterns, standards, policies, roadmaps and vision statements. You know how to focus on outcomes rather than solutions and activities.
+
+-------------
 * Bizdev
   * Read proposals
   * Ask questions and get clarity
