@@ -14,7 +14,6 @@ These are the engineering roles and responsibilities on a project team. This is 
   * Front End Lead
   * Senior Front End Developer
   * Front End Developer
-  * Theme Developer
 * Operations and Infrastructure Practice Area
   * Principal Infrastructure and Operations Lead
   * Site Reliability Engineer
@@ -75,21 +74,21 @@ They are familiar with the tooling of the technology and framework of their assi
 
 * #### System Design
   You can define the architecture, modules, interfaces, and data for a system to satisfy specified requirements. Systems design could be seen as the application of systems theory to product development. There is some overlap with the disciplines of systems analysis, systems architecture and systems engineering.
-  
+
 * #### System Administration
   You are responsible for the upkeep, configuration, and reliable operation of computer systems; especially multi-user computers, such as servers. The system administrator seeks to ensure that the uptime, performance, resources, and security of the computers they manage meet the needs of the users, without exceeding a set budget when doing so.
 
 * #### Application Command Line Tools
   You understand the proper tools to use that allow access and interface with local and remote environments from the command line. You can also create your own scripts and tools that help you work more efficiently and are able to share those with the team.
-   
+
 * #### Quality Code and Standards
   You can produce code that follows the standards that the project decides to use for each language. In addition, one should also be aware of how to produce code that follows best practices and is maintainable, commented appropriately, readable (easily scanned), and provides for easy reuse. Knowledge on how to use automated tools such as static analysis, linting, testing, and other tools that allow for quality code and less regression is a huge plus.
-   
+
 ## Level Description
 
 * #### Working
   A knowledge of how to make something work without any deeper understanding of why it works, or of how to fix it if it breaks.
-  
+
 -------------
 * Bizdev
   * Read proposals
