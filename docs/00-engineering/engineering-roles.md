@@ -323,3 +323,7 @@ Responsible for interactive components, ensuring that:
 | Scoping and Triage                     | Working   |
 | Content Strategy                       | Awareness |
 | Backend Technologies                   | Awareness |
+
+### Front-end Developer
+
+With skills ranging from entry to mid-level, our Front-end Developers will focus mostly on implementing theme code and site configuration. Awareness of expected skills for being effective within projects will be garnered through standard operation procedures and learning opportunities. Code and skill improvements should be tracked and organized with more experienced developers.
