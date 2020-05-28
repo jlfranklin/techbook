@@ -333,3 +333,19 @@ Responsible for theme code and site configuration, ensuring that:
 - They contribute to the building of web sites by taking design mockups and implementing them in part or in whole within responsive templates and/or themes.
 - Code and configuration are maintained, organized, and implemented per guidance and documentation.
 
+| Skill                                  | Level     |
+|----------------------------------------|-----------|
+| Local Development                      | Working   |
+| Drupal Application Design              | Awareness |
+| JavaScript Application Design          | Awareness |
+| Data flow and APIs                     | Awareness |
+| Application Command Line Tools         | Awareness |
+| Version Control                        | Working   |
+| Quality Code and Standards             | Awareness |
+| Site Building and Module Configuration | Working   |
+| Web Design Systems                     | Working   |
+| Design Auditing                        | Awareness |
+| Naming Convention Methodology          | Awareness |
+| Scoping and Triage                     | Awareness |
+| Content Strategy                       | Awareness |
+| Backend Technologies                   | Awareness |
