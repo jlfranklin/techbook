@@ -161,3 +161,7 @@ They are familiar with the tooling of the technology and framework of their assi
 * Responsible for "low level" organization and assignment of module coding tickets (especially on bigger projects).
 * Basic module install and upgrades.
 * Generally does a significant amount of the custom code and module work themselves (or all of it, on smaller projects).
+
+## Front-end Developer
+
+A Front-end Developer has fluency or near fluency in one or more languages. They are able to help collect requirements, design, and build components of front-end applications and themes. They are familiar with the tooling of the technology and framework of their assigned projects.
