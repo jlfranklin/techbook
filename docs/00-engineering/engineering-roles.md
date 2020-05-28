@@ -241,3 +241,17 @@ Generally speaking, the following Administrative skills should be considered for
 | Standardizing Procedures   | Working   |
 | Risk Evaluation            | Working   |
 
+#### Developer
+| Skill                      | Level     |
+|----------------------------|-----------|
+| Agile mindset              | Awareness |
+| Communication              | Working   |
+| Team collaboration         | Working   |
+| Working within constraints | Working   |
+| Leadership and Guidance    | Awareness |
+| Estimation and Planning    | Awareness |
+| Strategic thinking         | Awareness |
+| Innovation and Solutions   | Awareness |
+| Mentoring and Training     | Awareness |
+| Standardizing Procedures   | Awareness |
+| Risk Evaluation            | Awareness |
