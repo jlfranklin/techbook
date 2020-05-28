@@ -327,3 +327,9 @@ Responsible for interactive components, ensuring that:
 ### Front-end Developer
 
 With skills ranging from entry to mid-level, our Front-end Developers will focus mostly on implementing theme code and site configuration. Awareness of expected skills for being effective within projects will be garnered through standard operation procedures and learning opportunities. Code and skill improvements should be tracked and organized with more experienced developers.
+
+Responsible for theme code and site configuration, ensuring that:
+
+- They contribute to the building of web sites by taking design mockups and implementing them in part or in whole within responsive templates and/or themes.
+- Code and configuration are maintained, organized, and implemented per guidance and documentation.
+
