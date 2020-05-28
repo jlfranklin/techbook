@@ -162,11 +162,11 @@ They are familiar with the tooling of the technology and framework of their assi
 * Basic module install and upgrades.
 * Generally does a significant amount of the custom code and module work themselves (or all of it, on smaller projects).
 
-## Front-end Developer
+## Front End Developer
 
-A Front-end Developer has fluency or near fluency in one or more languages. They are able to help collect requirements, design, and build components of front-end applications and themes. They are familiar with the tooling of the technology and framework of their assigned projects.
+A Front End Developer has fluency or near fluency in one or more languages. They are able to help collect requirements, design, and build components of Front End applications and themes. They are familiar with the tooling of the technology and framework of their assigned projects.
 
-Front-end skills commonly used within our project work.
+Front End skills commonly used within our project work.
 
 - Web APIs / HTML Semantics
 - CSS Styling, Layout, and Animations
@@ -203,11 +203,11 @@ Front-end skills commonly used within our project work.
 - Code Reviews
 - Estimation and Planning
 
-### Front-end Roles
+### Front End Roles
 
 - Developer roles align into three categories; Lead, Senior Developer, and Developer.
 - Each category is expected to have skill level inheritance. For example, A Senior Developer will have working knowledge of Version Control and so should it be for Lead Developers.
-- While Front-end roles are often cross functional team members, there are high level considerations that place skills into practice which include Technical and Administrative contributions.
+- While Front End roles are often cross functional team members, there are high level considerations that place skills into practice which include Technical and Administrative contributions.
 
 Generally speaking, the following Administrative skills should be considered for each of the three Developer roles.
 
@@ -260,9 +260,9 @@ Generally speaking, the following Administrative skills should be considered for
 | Risk Evaluation            | Awareness |
 
 
-### Front-end Lead
+### Front End Lead
 
-Our Front-end Leads are responsible for projects, people, and innovations. This requires a broad skill set for interacting and communicating with multiple teams and "pre-sales" activities. Often, they will provide training, documentation, ticketing, code-reviews, and mentorship while supporting personnel management. It is expected that leads will have a deeper understanding of the technology stack and how to implement strategic solutions within projects that reduce risk and provide project success.
+Our Front End Leads are responsible for projects, people, and innovations. This requires a broad skill set for interacting and communicating with multiple teams and "pre-sales" activities. Often, they will provide training, documentation, ticketing, code-reviews, and mentorship while supporting personnel management. It is expected that leads will have a deeper understanding of the technology stack and how to implement strategic solutions within projects that reduce risk and provide project success.
 
 Responsible for project deliverables, ensuring that:
 
@@ -291,9 +291,9 @@ Responsible for co-leading projects with project manager(s), ensuring that:
 | Content Strategy                       | Working      |
 | Backend Technologies                   | Working      |
 
-### Senior Front-end Developer
+### Senior Front End Developer
 
-With proven problem-solving skills, Senior Front-end Developers typically work more independently and in support of guidance from Front-end Leads. They will help to execute and develop solutions from well-rounded technical and user experience considerations providing estimates, risks, and prototypes. Through analysis and experience they should be comfortable working in and taking on many different front-end technologies while pursuing additional depth in both CMS and JavaScript Applications. Mentoring others is an option for those who seek it. However, it is expected that they will support Front-end Developers with guidance, technical knowledge, and quality control.
+With proven problem-solving skills, Senior Front End Developers typically work more independently and in support of guidance from Front End Leads. They will help to execute and develop solutions from well-rounded technical and user experience considerations providing estimates, risks, and prototypes. Through analysis and experience they should be comfortable working in and taking on many different Front End technologies while pursuing additional depth in both CMS and JavaScript Applications. Mentoring others is an option for those who seek it. However, it is expected that they will support Front End Developers with guidance, technical knowledge, and quality control.
 
 Responsible for theme code and site configuration, ensuring that:
 
@@ -324,9 +324,9 @@ Responsible for interactive components, ensuring that:
 | Content Strategy                       | Awareness |
 | Backend Technologies                   | Awareness |
 
-### Front-end Developer
+### Front End Developer
 
-With skills ranging from entry to mid-level, our Front-end Developers will focus mostly on implementing theme code and site configuration. Awareness of expected skills for being effective within projects will be garnered through standard operation procedures and learning opportunities. Code and skill improvements should be tracked and organized with more experienced developers.
+With skills ranging from entry to mid-level, our Front End Developers will focus mostly on implementing theme code and site configuration. Awareness of expected skills for being effective within projects will be garnered through standard operation procedures and learning opportunities. Code and skill improvements should be tracked and organized with more experienced developers.
 
 Responsible for theme code and site configuration, ensuring that:
 
