@@ -279,6 +279,7 @@ Responsible for co-leading projects with project manager(s), ensuring that:
 | Local Development                      | Practitioner |
 | Drupal Application Design              | Practitioner |
 | JavaScript Application Design          | Working      |
+| Data flow and APIs                     | Practitioner |
 | Application Command Line Tools         | Working      |
 | Version Control                        | Practitioner |
 | Quality Code and Standards             | Practitioner |
@@ -305,3 +306,20 @@ Responsible for interactive components, ensuring that:
 
 - The components are properly aligned with design, functionality, and accessibility requirements.
 - People working with the components know how they are built, and where to add/edit things.
+
+| Skill                                  | Level     |
+|----------------------------------------|-----------|
+| Local Development                      | Working   |
+| Drupal Application Design              | Working   |
+| JavaScript Application Design          | Awareness |
+| Data flow and APIs                     | Working   |
+| Application Command Line Tools         | Working   |
+| Version Control                        | Working   |
+| Quality Code and Standards             | Working   |
+| Site Building and Module Configuration | Working   |
+| Web Design Systems                     | Awareness |
+| Design Auditing                        | Awareness |
+| Naming Convention Methodology          | Awareness |
+| Scoping and Triage                     | Working   |
+| Content Strategy                       | Awareness |
+| Backend Technologies                   | Awareness |
