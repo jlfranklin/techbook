@@ -208,3 +208,21 @@ Front-end skills commonly used within our project work.
 - Developer roles align into three categories; Lead, Senior Developer, and Developer.
 - Each category is expected to have skill level inheritance. For example, A Senior Developer will have working knowledge of Version Control and so should it be for Lead Developers.
 - While Front-end roles are often cross functional team members, there are high level considerations that place skills into practice which include Technical and Administrative contributions.
+
+Generally speaking, the following Administrative skills should be considered for each of the three Developer roles.
+
+#### Lead
+| Skill                      | Level        |
+|----------------------------|--------------|
+| Agile mindset              | Practitioner |
+| Communication              | Practitioner |
+| Team collaboration         | Practitioner |
+| Working within constraints | Practitioner |
+| Leadership and Guidance    | Practitioner |
+| Estimation and Planning    | Practitioner |
+| Strategic thinking         | Practitioner |
+| Innovation and Solutions   | Practitioner |
+| Mentoring and Training     | Practitioner |
+| Standardizing Procedures   | Practitioner |
+| Risk Evaluation            | Practitioner |
+
