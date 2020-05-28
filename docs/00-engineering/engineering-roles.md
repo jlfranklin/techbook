@@ -38,24 +38,24 @@ These are the engineering roles and responsibilities on a project team. This is 
 A Backend Developer has fluency or near fluency in one or more languages. They are able to help collect requirements, design, and build components of applications.
 They are familiar with the tooling of the technology and framework of their assigned projects and can work on most component level tasks with minimal guidance.
 
-| Skill | Level |
-| --- | --- |
-| [Agile mindset](#agile-mindset) | [Working](#working) |
-| Communication | Working |
-| Team collaboration | Working |
-| Working within constraints | Working |
-| Leadership and guidance | Working |
-| Strategic thinking | Awareness |
-| [System Design](#system-design) | Awareness |
-| [System Administration](#system-administration) | Awareness |
-| [Application Command Line Tools](#application-command-line-tools) | Working |
-| [Application Design](#application-command-line-tools) | Practitioner |
-| [Quality Code and Standards](#quality-code-and-standards) | Practitioner |
-| API Design | Working |
-| Identity and Role Management | Working |
-| Presentation | Awareness |
-| Service Oriented Architecture | Working |
-| Redundancy Patterns | Awareness |
+| Skill                                                             | Level               |
+|-------------------------------------------------------------------|---------------------|
+| [Agile mindset](#agile-mindset)                                   | [Working](#working) |
+| Communication                                                     | Working             |
+| Team collaboration                                                | Working             |
+| Working within constraints                                        | Working             |
+| Leadership and guidance                                           | Working             |
+| Strategic thinking                                                | Awareness           |
+| [System Design](#system-design)                                   | Awareness           |
+| [System Administration](#system-administration)                   | Awareness           |
+| [Application Command Line Tools](#application-command-line-tools) | Working             |
+| [Application Design](#application-command-line-tools)             | Practitioner        |
+| [Quality Code and Standards](#quality-code-and-standards)         | Practitioner        |
+| API Design                                                        | Working             |
+| Identity and Role Management                                      | Working             |
+| Presentation                                                      | Awareness           |
+| Service Oriented Architecture                                     | Working             |
+| Redundancy Patterns                                               | Awareness           |
 
 ## Skills Description
 
