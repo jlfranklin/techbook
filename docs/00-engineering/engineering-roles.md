@@ -273,7 +273,23 @@ Responsible for co-leading projects with project manager(s), ensuring that:
 - Team design and decisions around technical resources for assignments are accurate and effective.
 - Provide information to clients regarding the technical deliverables or project plan.
 - Ensure that the project manager is made aware of and understands all technical issues and risks, including the team’s ability to deliver on-time and within budget.
-Responsible for leading projects with the technical teams, ensuring that:
-- Team design and decisions around technical resources for assignments are accurate and effective.
-- Provide information to client(s) regarding the technical deliverables or project plan.
-- Ensure that the project manager(s) is made aware of and understands all technical issues and risks, including the team’s ability to deliver on-time and within budget.
+
+| Skill                                  | Level        |
+|----------------------------------------|--------------|
+| Local Development                      | Practitioner |
+| Drupal Application Design              | Practitioner |
+| JavaScript Application Design          | Working      |
+| Application Command Line Tools         | Working      |
+| Version Control                        | Practitioner |
+| Quality Code and Standards             | Practitioner |
+| Site Building and Module Configuration | Practitioner |
+| Web Design Systems                     | Practitioner |
+| Design Auditing                        | Practitioner |
+| Naming Convention Methodology          | Practitioner |
+| Scoping and Triage                     | Practitioner |
+| Content Strategy                       | Working      |
+| Backend Technologies                   | Working      |
+
+### Senior Front-end Developer
+
+With proven problem-solving skills, Senior Front-end Developers typically work more independently and in support of guidance from Front-end Leads. They will help to execute and develop solutions from well-rounded technical and user experience considerations providing estimates, risks, and prototypes. Through analysis and experience they should be comfortable working in and taking on many different front-end technologies while pursuing additional depth in both CMS and JavaScript Applications. Mentoring others is an option for those who seek it. However, it is expected that they will support Front-end Developers with guidance, technical knowledge, and quality control.
