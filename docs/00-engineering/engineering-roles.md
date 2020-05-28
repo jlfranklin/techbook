@@ -165,3 +165,41 @@ They are familiar with the tooling of the technology and framework of their assi
 ## Front-end Developer
 
 A Front-end Developer has fluency or near fluency in one or more languages. They are able to help collect requirements, design, and build components of front-end applications and themes. They are familiar with the tooling of the technology and framework of their assigned projects.
+
+Front-end skills commonly used within our project work.
+
+- Web APIs / HTML Semantics
+- CSS Styling, Layout, and Animations
+- BEM Naming Conventions
+- Twig Templating Engines
+- Component based theming
+- Drupal CMS Application Design
+- Configuration Management
+- Composer and Drush Command Line Tools
+- JavaScript
+- JavaScript Web Application Design
+- React JavaScript Framework
+- jQuery DOM manipulation
+- Gulp and Webpack Task runners and Build Tools
+- Mobile First Responsive Web Design
+- 508, WCAG, and Aria Accessibility
+- USWDS Web Design System
+- Pattern Lab Atomic Design Tooling
+- Docker based Local Development
+- GIT Version Control
+- Web Performance
+- Browser Development tools
+- Browser and Platform Testing
+- Data formats (XML, JSON, YML)
+- Data flow and Restful APIs
+- Package and Dependency Managers
+- Search Engine Optimization (SEO)
+- Interactive Design
+- User Experience
+- Prototyping and Design Tools
+- Content Strategy
+- Information Architecture
+- Ticketing and Triage
+- Code Reviews
+- Estimation and Planning
+
