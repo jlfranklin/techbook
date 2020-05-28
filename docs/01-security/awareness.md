@@ -77,10 +77,11 @@ SMS can often be an easy backup, but it is known to be insecure. Most services t
 Social engineering is the most common attack vector used to compromise computer systems. Social engineering relies heavily on human interaction and often involves tricking people into breaking normal security procedures. The following is a brief reminder of some of the methods used, but is in no way complete.
 
 * Phishing
+  * Please forward phishing emails or suspicious emails to security@bixal.com so that the IT department can quarantine the message and block the email address moving forward
   * Is the email from someone you know and contains expected information?
     * Emails from unknown people asking for some action on your part is the most common form of phishing.
-  * Don't click on links or open attachements:
-    * Unless you trust the sender and expect the link or attachment, 
+  * Don't click on links or open attachments:
+    * Unless you trust the sender and expect the link or attachment,
       * Even if you trust the source (a From: address can be spoofed) hover first and check the URL
     * If in doubt, ask an IT member (e.g. via Slack) or forward the email to an IT member
     * [More on Phishing avoidance (from EFF)](https://ssd.eff.org/en/module/how-avoid-phishing-attacks)
