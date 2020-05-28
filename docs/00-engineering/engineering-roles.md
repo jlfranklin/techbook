@@ -203,3 +203,8 @@ Front-end skills commonly used within our project work.
 - Code Reviews
 - Estimation and Planning
 
+### Front-end Roles
+
+- Developer roles align into three categories; Lead, Senior Developer, and Developer.
+- Each category is expected to have skill level inheritance. For example, A Senior Developer will have working knowledge of Version Control and so should it be for Lead Developers.
+- While Front-end roles are often cross functional team members, there are high level considerations that place skills into practice which include Technical and Administrative contributions.
