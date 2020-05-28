@@ -212,6 +212,7 @@ Front-end skills commonly used within our project work.
 Generally speaking, the following Administrative skills should be considered for each of the three Developer roles.
 
 #### Lead
+
 | Skill                      | Level        |
 |----------------------------|--------------|
 | Agile mindset              | Practitioner |
@@ -227,6 +228,7 @@ Generally speaking, the following Administrative skills should be considered for
 | Risk Evaluation            | Practitioner |
 
 #### Senior Developer
+
 | Skill                      | Level     |
 |----------------------------|-----------|
 | Agile mindset              | Working   |
@@ -242,6 +244,7 @@ Generally speaking, the following Administrative skills should be considered for
 | Risk Evaluation            | Working   |
 
 #### Developer
+
 | Skill                      | Level     |
 |----------------------------|-----------|
 | Agile mindset              | Awareness |
@@ -255,3 +258,22 @@ Generally speaking, the following Administrative skills should be considered for
 | Mentoring and Training     | Awareness |
 | Standardizing Procedures   | Awareness |
 | Risk Evaluation            | Awareness |
+
+
+### Front-end Lead
+
+Our Front-end Leads are responsible for projects, people, and innovations. This requires a broad skill set for interacting and communicating with multiple teams and "pre-sales" activities. Often, they will provide training, documentation, ticketing, code-reviews, and mentorship while supporting personnel management. It is expected that leads will have a deeper understanding of the technology stack and how to implement strategic solutions within projects that reduce risk and provide project success.
+
+Responsible for project deliverables, ensuring that:
+
+- Clear descriptions and estimates of technical deliverables support and determine the scope, approach, schedule, and budget.
+
+Responsible for co-leading projects with project manager(s), ensuring that:
+
+- Team design and decisions around technical resources for assignments are accurate and effective.
+- Provide information to clients regarding the technical deliverables or project plan.
+- Ensure that the project manager is made aware of and understands all technical issues and risks, including the team’s ability to deliver on-time and within budget.
+Responsible for leading projects with the technical teams, ensuring that:
+- Team design and decisions around technical resources for assignments are accurate and effective.
+- Provide information to client(s) regarding the technical deliverables or project plan.
+- Ensure that the project manager(s) is made aware of and understands all technical issues and risks, including the team’s ability to deliver on-time and within budget.
