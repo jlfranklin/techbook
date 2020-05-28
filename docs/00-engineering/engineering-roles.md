@@ -150,15 +150,6 @@ They are familiar with the tooling of the technology and framework of their assi
   * Notify the Project Manager regarding any issue that might threaten the teams ability to deliver the project on time and within budget.
   * Shall be the Technical eyes and ears of the Project Manager. The Technical Lead must ensure that the project manager is made aware of and understands all technical issues and risks.
 
-## Lead Themer
-
-* Responsible for all theme code, ensuring that:
-  * The theming code is organized, well maintained and documented.
-  * People working on it know how it is organized, and where to add/edit things.
-  * Responsible for "low level" support for people working on theming tickets.
-  * Responsible for "low level" organization and assignment of theming tickets (especially on bigger projects).
-* Generally does a significant amount of the theme code themselves (or all of it, on smaller projects).
-
 ## Lead Engineer
 
 * Responsible for all custom code, patches and modules, ensuring that:
