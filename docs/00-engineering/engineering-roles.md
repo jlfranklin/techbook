@@ -39,7 +39,7 @@ A Backend Developer has fluency or near fluency in one or more languages. They a
 They are familiar with the tooling of the technology and framework of their assigned projects and can work on most component level tasks with minimal guidance.
 
 | Skill | Level |
-| --- | --- |
+| --* | --* |
 | [Agile mindset](#agile-mindset) | [Working](#working) |
 | Communication | Working |
 | Team collaboration | Working |
@@ -115,7 +115,7 @@ They are familiar with the tooling of the technology and framework of their assi
   * TL creates tickets
   * Detailed tickets (generally on smaller projects)
   * Defining deliverables from which the LE or LT "spawn" work tickets (generally on bigger projects)
-  * Ticket "wrangling" - making sure tickets are organized, clear, and assigned to the right people
+  * Ticket "wrangling" * making sure tickets are organized, clear, and assigned to the right people
   * Expert' support at the appropriate level
   * Assisting PM with resource requests
 * QA
@@ -134,7 +134,7 @@ They are familiar with the tooling of the technology and framework of their assi
 
 ### Tech Leads in the Process
 
-* Tech Lead may be assigned to assist with "pre-sales" activities. Helps the project manager and other team members determine the scope, approach, schedule and budget for a project. This will often involve direct client contact - with or without the participation of the project manager and/or other team members. In this role the Tech Lead is responsible for the following deliverables:
+* Tech Lead may be assigned to assist with "pre-sales" activities. Helps the project manager and other team members determine the scope, approach, schedule and budget for a project. This will often involve direct client contact * with or without the participation of the project manager and/or other team members. In this role the Tech Lead is responsible for the following deliverables:
   * A clear description of the technical deliverables.
   * An estimate of the time for completion of the technical deliverables. In this role the Tech Lead will call upon other tech team members to complete their deliverables on an as-needed basis. The Tech Lead DOES NOT need to be an expert in all technical areas of the project, but does need to be responsible for the overall accuracy of the proposal.
 * The Tech lead will work with the Project Manager to:
@@ -168,46 +168,46 @@ A Front End Developer has fluency or near fluency in one or more languages. They
 
 Front End skills commonly used within our project work.
 
-- Web APIs / HTML Semantics
-- CSS Styling, Layout, and Animations
-- BEM Naming Conventions
-- Twig Templating Engines
-- Component based theming
-- Drupal CMS Application Design
-- Configuration Management
-- Composer and Drush Command Line Tools
-- JavaScript
-- JavaScript Web Application Design
-- React JavaScript Framework
-- jQuery DOM manipulation
-- Gulp and Webpack Task runners and Build Tools
-- Mobile First Responsive Web Design
-- 508, WCAG, and Aria Accessibility
-- USWDS Web Design System
-- Pattern Lab Atomic Design Tooling
-- Docker based Local Development
-- GIT Version Control
-- Web Performance
-- Browser Development tools
-- Browser and Platform Testing
-- Data formats (XML, JSON, YML)
-- Data flow and Restful APIs
-- Package and Dependency Managers
-- Search Engine Optimization (SEO)
-- Interactive Design
-- User Experience
-- Prototyping and Design Tools
-- Content Strategy
-- Information Architecture
-- Ticketing and Triage
-- Code Reviews
-- Estimation and Planning
+* Web APIs / HTML Semantics
+* CSS Styling, Layout, and Animations
+* BEM Naming Conventions
+* Twig Templating Engines
+* Component based theming
+* Drupal CMS Application Design
+* Configuration Management
+* Composer and Drush Command Line Tools
+* JavaScript
+* JavaScript Web Application Design
+* React JavaScript Framework
+* jQuery DOM manipulation
+* Gulp and Webpack Task runners and Build Tools
+* Mobile First Responsive Web Design
+* 508, WCAG, and Aria Accessibility
+* USWDS Web Design System
+* Pattern Lab Atomic Design Tooling
+* Docker based Local Development
+* GIT Version Control
+* Web Performance
+* Browser Development tools
+* Browser and Platform Testing
+* Data formats (XML, JSON, YML)
+* Data flow and Restful APIs
+* Package and Dependency Managers
+* Search Engine Optimization (SEO)
+* Interactive Design
+* User Experience
+* Prototyping and Design Tools
+* Content Strategy
+* Information Architecture
+* Ticketing and Triage
+* Code Reviews
+* Estimation and Planning
 
 ### Front End Roles
 
-- Developer roles align into three categories; Lead, Senior Developer, and Developer.
-- Each category is expected to have skill level inheritance. For example, A Senior Developer will have working knowledge of Version Control and so should it be for Lead Developers.
-- While Front End roles are often cross functional team members, there are high level considerations that place skills into practice which include Technical and Administrative contributions.
+* Developer roles align into three categories; Lead, Senior Developer, and Developer.
+* Each category is expected to have skill level inheritance. For example, A Senior Developer will have working knowledge of Version Control and so should it be for Lead Developers.
+* While Front End roles are often cross functional team members, there are high level considerations that place skills into practice which include Technical and Administrative contributions.
 
 Generally speaking, the following Administrative skills should be considered for each of the three Developer roles.
 
@@ -266,13 +266,13 @@ Our Front End Leads are responsible for projects, people, and innovations. This 
 
 Responsible for project deliverables, ensuring that:
 
-- Clear descriptions and estimates of technical deliverables support and determine the scope, approach, schedule, and budget.
+* Clear descriptions and estimates of technical deliverables support and determine the scope, approach, schedule, and budget.
 
 Responsible for co-leading projects with project manager(s), ensuring that:
 
-- Team design and decisions around technical resources for assignments are accurate and effective.
-- Provide information to clients regarding the technical deliverables or project plan.
-- Ensure that the project manager is made aware of and understands all technical issues and risks, including the team’s ability to deliver on-time and within budget.
+* Team design and decisions around technical resources for assignments are accurate and effective.
+* Provide information to clients regarding the technical deliverables or project plan.
+* Ensure that the project manager is made aware of and understands all technical issues and risks, including the team’s ability to deliver on-time and within budget.
 
 | Skill                                  | Level        |
 |----------------------------------------|--------------|
@@ -297,15 +297,15 @@ With proven problem-solving skills, Senior Front End Developers typically work m
 
 Responsible for theme code and site configuration, ensuring that:
 
-- Code and configuration are organized, well maintained and documented.
-- People working on it know how it is organized, and where to add/edit things.
-- Responsible for "low level" support for people working on theming or configuration tickets.
-- Generally, does all of the theme level work themselves
+* Code and configuration are organized, well maintained and documented.
+* People working on it know how it is organized, and where to add/edit things.
+* Responsible for "low level" support for people working on theming or configuration tickets.
+* Generally, does all of the theme level work themselves
 
 Responsible for interactive components, ensuring that:
 
-- The components are properly aligned with design, functionality, and accessibility requirements.
-- People working with the components know how they are built, and where to add/edit things.
+* The components are properly aligned with design, functionality, and accessibility requirements.
+* People working with the components know how they are built, and where to add/edit things.
 
 | Skill                                  | Level     |
 |----------------------------------------|-----------|
@@ -330,8 +330,8 @@ With skills ranging from entry to mid-level, our Front End Developers will focus
 
 Responsible for theme code and site configuration, ensuring that:
 
-- They contribute to the building of web sites by taking design mockups and implementing them in part or in whole within responsive templates and/or themes.
-- Code and configuration are maintained, organized, and implemented per guidance and documentation.
+* They contribute to the building of web sites by taking design mockups and implementing them in part or in whole within responsive templates and/or themes.
+* Code and configuration are maintained, organized, and implemented per guidance and documentation.
 
 | Skill                                  | Level     |
 |----------------------------------------|-----------|
