@@ -293,3 +293,15 @@ Responsible for co-leading projects with project manager(s), ensuring that:
 ### Senior Front-end Developer
 
 With proven problem-solving skills, Senior Front-end Developers typically work more independently and in support of guidance from Front-end Leads. They will help to execute and develop solutions from well-rounded technical and user experience considerations providing estimates, risks, and prototypes. Through analysis and experience they should be comfortable working in and taking on many different front-end technologies while pursuing additional depth in both CMS and JavaScript Applications. Mentoring others is an option for those who seek it. However, it is expected that they will support Front-end Developers with guidance, technical knowledge, and quality control.
+
+Responsible for theme code and site configuration, ensuring that:
+
+- Code and configuration are organized, well maintained and documented.
+- People working on it know how it is organized, and where to add/edit things.
+- Responsible for "low level" support for people working on theming or configuration tickets.
+- Generally, does all of the theme level work themselves
+
+Responsible for interactive components, ensuring that:
+
+- The components are properly aligned with design, functionality, and accessibility requirements.
+- People working with the components know how they are built, and where to add/edit things.
