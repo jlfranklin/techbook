@@ -17,7 +17,7 @@ take to resolve them.
 
 ## Definitions
 
-**PII** as “any information that permits the identity of an individual to be directly or indirectly
+**PII** as “any personally identifiable information that permits the identity of an individual to be directly or indirectly
 inferred, including any other information which is linked or linkable to that individual,
 regardless of whether the individual is a United States citizen, lawful permanent resident,
 visitor to the U.S., or employee or contractor to the Department”.
@@ -81,7 +81,7 @@ the direction of the Information Security Officer assigned to the component, or
 if the Office of Information Security will lead the response. The Director may choose
 not to convene the BISO if the response can be conducted at the Component level. At a
 minimum, the BISO is convened when a privacy incident constitutes a “major incident,” as
-defined in OMB M-18-0210 and subsequent OMB Guidance.
+defined in OMB M-18-02 and subsequent OMB Guidance.
 * Leads and manages the BISO if convened.
 * Evaluates the sensitivity of the PII involved in the privacy incident and assesses the risk of
 harm to individuals affected by the privacy incident.
@@ -106,7 +106,7 @@ and general appropriateness of notifications.
   * Director of Technology
   * Chief Executive Officer
 * As necessary, depending on the type of incident, the Director of Technology may
-request dditional subject matter experts to join and assist the BISO. For example, if the
+request additional subject matter experts to join and assist the BISO. For example, if the
 privacy incident involves financial information, the Bixal Director of Technology may request
 the Chief Financial Officer to join the BISO.
 
@@ -134,7 +134,7 @@ confirmed. A privacy incident involving PII should be viewed as the loss of cont
 unauthorized disclosure, unauthorized acquisition, or any similar occurrence when
 
 1. An unauthorized user accesses PII
-1. An authorized user accesses PII for an other than authorized purpose.13
+1. An authorized user accesses PII for an other than authorized purpose.
 
 In order to encourage effective and efficient responses to privacy incidents, it is imperative not only
 that the Department train personnel on privacy reporting procedures, but also that it fosters an
@@ -232,7 +232,7 @@ Incident assessment factors include:
 
     The Information Security Officer should also determine, to the extent possible and at
     the earliest stage of the privacy incident, whether the privacy incident involves
-    governmentissued credit cards or individuals’ financial information, such as bank
+    government issued credit cards or individuals’ financial information, such as bank
     account numbers used for direct deposit of credit card reimbursements, or any benefit
     information. If so, the Information Security Officer should immediately notify the the Bixal
     chief financial officer or federal COR representitive. The BISO will notify the affected bank(s)
@@ -310,13 +310,13 @@ If the privacy incident is validated as a major incident that involves PII, the 
 Technology or BISO must notify appropriate congressional committees no later than seven days after
 the date on which Bixal has reasonably concluded that a major privacy incident occurred.
 The Bixal Director of Technology must supplement that seven day notification to Congress
-with updates withina reasonable period of time. In addition, Bixal Director of Technology
+with updates within a reasonable period of time. In addition, Bixal Director of Technology
 must also supplement the seven day notification with a report no later than 30 days
 after a major privacy incident is discovered. The Bixal Director of Technology will coordinate
 with OLA, as a member of the Breach Response Team, as described below, for such notification
 to these committees.
 
-## Assessing the Risk of Harm to Individuals Impacted by a Privacy Incident (Risk Assement)
+## Assessing the Risk of Harm to Individuals Impacted by a Privacy Incident (Risk Assessment)
 
 All privacy incidents require a technical investigation, in addition to the facts gathered
 at the initial incident intake, in order to collect the information required to conduct a
@@ -514,9 +514,10 @@ the Component Information Security Officer should consider the following:
         locked cabinet or locked briefcase, will also be considered.
 
 1. Type of Privacy Incident
-The Component Information Security Officer will consider the whether the major or minor
+The Component Information Security Officer will consider whether the major or minor
 privacy incident was intentional, who received the information, and whether the intent is
 unknown.
+
    * Intent
 
         If a privacy incident was intentional, it is important to determine whether the
@@ -542,7 +543,9 @@ unknown.
         stolen intentionally or that she dropped it accidentally. Similarly, a shipment
         containing A-Files that never arrives at its destination may have been unintentionally
         lost or may have been targeted by a malicious actor and intercepted.
+
    * Criminal Activity
+
         If the initial fact gathering suggests potential criminal activity, the Component
         Information Security Officer should immediately notify and coordinate with
         the responsible law authorities defined by the BISO. External notification to
@@ -554,7 +557,9 @@ unknown.
         incident, Component Information Security Officer shall consider any relevant
         information provided by law enforcement that may help inform whether the privacy
         incident was intentional or unintentional.
+
    * Recipient
+
         In some cases, the Component may know who received the compromised PII. This
         information, when available, may help the Component Information Security Officer
         assess the likely risk of harm to individuals. For example, a privacy incident is often
@@ -694,7 +699,7 @@ affected individuals.
 
    In some circumstances, law enforcement or national security considerations may require a
    delay in notification if it impedes the investigation of the privacy incident, as permitted by
-   OMB Memorandum M-17-12.28 Decisions to delay notification should be made by the Bixal
+   OMB Memorandum M-17-12. Decisions to delay notification should be made by the Bixal
    BISO in **writing** (emphasis added).
 
 1. Source of Notification for a Major Privacy Incident
@@ -857,6 +862,7 @@ affected individuals.
      to reference;
      * FAQs; and
      * Call center number, if applicable
+
 
      Component Information Security Officers may want to also consider developing and
      publishing a page on their Component’s Intranet page with the
