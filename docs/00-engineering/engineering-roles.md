@@ -39,7 +39,7 @@ A Backend Developer has fluency or near fluency in one or more languages. They a
 They are familiar with the tooling of the technology and framework of their assigned projects and can work on most component level tasks with minimal guidance.
 
 | Skill | Level |
-|---|---|
+| --- | --- |
 | [Agile mindset](#agile-mindset) | [Working](#working) |
 | Communication | Working |
 | Team collaboration | Working |
