@@ -81,8 +81,7 @@ They are familiar with the tooling of the technology and framework of their assi
 
 ## Level Description
 
-* #### Working
-  A knowledge of how to make something work without any deeper understanding of why it works, or of how to fix it if it breaks.
+* **Working** A knowledge of how to make something work without any deeper understanding of why it works, or of how to fix it if it breaks.
 
 ## Front End Developer
 
