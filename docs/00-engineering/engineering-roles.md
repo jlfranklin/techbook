@@ -66,6 +66,7 @@ Front End skills commonly used within our project work.
 * Web APIs / HTML Semantics
 * CSS Styling, Layout, and Animations
 * BEM Naming Conventions
+* SASS and other CSS Extension Languages
 * Twig Templating Engines
 * Component based theming
 * Drupal CMS Application Design
