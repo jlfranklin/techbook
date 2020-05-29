@@ -59,7 +59,7 @@ They are familiar with the tooling of the technology and framework of their assi
 
 ## Presentation Practice Area
 
-**Front End Developers** have fluency or near fluency in one or more languages. They are able to help collect requirements, design, and build components of Front End applications and themes. They are familiar with the tooling of the technology and framework of their assigned projects.
+**Front End Developers** most often work within the presentation layer of applications and often have fluency or near fluency in one or more client side languages. They are able to help collect requirements, design, and build components of Front End applications and themes. They are familiar with the tooling of the technology and framework of their assigned projects.
 
 Front End skills commonly used within our project work.
 
