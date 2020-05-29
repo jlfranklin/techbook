@@ -273,7 +273,7 @@ Responsible for theme code and site configuration, ensuring that:
 
 * **Version Control** You can work with GIT and maintain the remote code base including the accuracy of code that is staged for deployment, resolving any conflicts during feature merges, and providing timely feedback for pull requests.
 
-* **Backend Technologies** You are experienced in programing or scripting with server side language, server architecture, database administration, security, and system design.
+* **Backend Technologies** You are experienced in programing or scripting with server-side language, server architecture, database administration, security, and system design.
 
 * **Front End Technologies** You are experienced in web standards, markup, web languages, and stay up to date on new Front End technologies. You understand the challenges to over-engineering client-side solutions and how to avoid common pitfalls. You value performance, accessibility, and reusability.
 
@@ -283,7 +283,7 @@ Responsible for theme code and site configuration, ensuring that:
 
 * **JavaScript Application Design** You lead the effort in the applications quality and development workflow. You support or implement processes and continuous integration efforts. You architect and maintain the modular component compositions that create performant and stable user interfaces with accessibility and scalability in mind. You are sometimes called to guide conversations around progressive decoupling and how/or when to integrate them in with monolithic content systems.
 
-* **Data flow and APIs** You take charge of how data is stored, maintained, and delivered to the user interface. You understand how to securely consume and change data received from user interaction. Often times you are called upon to develop custom presentations and workflows from multiple data sources.
+* **Data flow and APIs** You take charge of how data is stored, maintained, and delivered to the user interface. You understand how to securely consume, and change data received from user interaction. Often times you are called upon to develop custom presentations and workflows from multiple data sources.
 
 * **Site Building and Module Configuration** You are comfortable developing low-code page content structures and providing value with implementing and configuring community provided modules. It is your responsibility to maintain these configurations and the quality of any change request.
 
