@@ -57,9 +57,9 @@ They are familiar with the tooling of the technology and framework of their assi
 | Service Oriented Architecture | Working |
 | Redundancy Patterns | Awareness |
 
-## Front End Developer
+## Presentation Practice Area
 
-A Front End Developer has fluency or near fluency in one or more languages. They are able to help collect requirements, design, and build components of Front End applications and themes. They are familiar with the tooling of the technology and framework of their assigned projects.
+A Front End Developers have fluency or near fluency in one or more languages. They are able to help collect requirements, design, and build components of Front End applications and themes. They are familiar with the tooling of the technology and framework of their assigned projects.
 
 Front End skills commonly used within our project work.
 
