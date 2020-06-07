@@ -22,9 +22,21 @@ Most Drupal 8 and beyond projects at Bixal use some version of [Bixal drupal-pro
 * We use render arrays and theme functions, so we can separate logic and presentation.
 * We try to keep modules that could be useful on another site completely generic from the start (a good technique is to develop in a fresh Drupal install rather then the actual site), and theme the site specific stuff in your site theme.
 
+## Git
 
+### Git Branches
+When possible use the Jira ticket system to help structure the names of branches:
+* ticket-type/ticket-number -- task/GN-123
 
-## Git Commits
+Most common ticket types and the naming convention:
+* Story and Task -- task/GN-123
+* Bug -- bug/GN-123
+* Release -- release/1
+
+If an issue occurs that requires a hotfix or an unscheduled deployment:
+* hotfix/GN-123
+
+### Git Commits
 
 * Include a descriptive message in the git commit.
 * Begin the commit message with the ticket number, e.g. GN-123 (JIRA).
