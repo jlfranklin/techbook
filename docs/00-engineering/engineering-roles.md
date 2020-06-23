@@ -5,7 +5,7 @@ These are the engineering roles and responsibilities on a project team. This is 
 ## Technical Roles Throughout Bixal
 
 * Back End Development Practice Area
-  * Principal Software Architect
+  * Lead Software Architect
   * Technical Lead
   * Senior Back End Developer
   * Backend Developer
@@ -15,7 +15,7 @@ These are the engineering roles and responsibilities on a project team. This is 
   * Senior Front End Developer
   * Front End Developer
 * Operations and Infrastructure Practice Area
-  * Principal Infrastructure and Operations Lead
+  * Infrastructure and Operations Lead
   * Site Reliability Engineer
   * Infrastructure Architect
   * System Administrator
@@ -154,7 +154,6 @@ Generally speaking, the following Administrative skills should be considered for
 | Mentoring and Training     | Awareness |
 | Standardizing Procedures   | Awareness |
 | Risk Evaluation            | Awareness |
-
 
 ### Front End Lead
 
