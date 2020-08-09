@@ -58,6 +58,20 @@ For each Google account you have:
 * Enable TFA, and complete the phone verification process (phone will act as backup TFA).
 * Then you can "Register new device" in the "Security keys" section
 
+![GitLab](images/GitLab_Logo.png)
+
+## Gitlab
+
+Gitlab requires users to enable a TOTP application before they can enable a U2F security key.  This may change in a future relase as there is an active bug in Gitlab to allow [U2F without TOTP](https://gitlab.com/gitlab-org/gitlab/-/issues/23142).
+
+* Under your account menu, choose "Settings", then choose ["Account"](https://gitlab.bixal.net/profile/account).
+* Choose Enable two-factor Authentication
+* Scan the QR code with your TOTP app and input a valid TOTP code from the application.
+* Go back to the User Settings -> Account page, and select "Manage two-factor Authentication".
+* This time the setup new U2F device button will be available.  Click it, then tap the button on your Yubikey when instructed.
+* Give it a name that makes sense to you.
+* (optional) Repeat with a backup Yubikey.
+
 ### AWS Root Account
 
 For each AWS account you have:
