@@ -1,6 +1,6 @@
 # Using your YubiKey
 
-Notes on installing and setting up your *YubiKey 4* for various platforms and applications.
+Notes on installing and setting up your *YubiKey 4* (or later) for various platforms and applications.
 
 ## Introduction
 
@@ -58,6 +58,8 @@ For each Google account you have:
 * Enable TFA, and complete the phone verification process (phone will act as backup TFA).
 * Then you can "Register new device" in the "Security keys" section
 
+![AWS](images/AWS_Logo.png)
+
 ### AWS Root Account
 
 For each AWS account you have:
@@ -68,12 +70,29 @@ For each AWS account you have:
 
 ### AWS IAM Account
 
-* Visit <https://console.aws.amazon.com/iam/home?region=us-east-1#users>
-* Choose your user name
-* Click on Manage your MFA device
+AWS supports the use of a TOTP app, like Google Authenticator, or you can use a U2F Security Key, like a Yubikey.  However, they only support one device per account, so you cannot set up a backup MFA device for AWS.
+
+![AWS Account Menu](AWS-Account-Menu.png)
+
+**For All MFA Types:**
+
+* Login and click your name in the top menu bar.
+* Click [_My Security Credentials_](https://console.aws.amazon.com/iam/home?region=us-east-1#security_credential) in the drop down menu.
+* Click on Manage your MFA device.
+
+![AWS MFA device selection dialog](AWS-MFA.png)
+
+**For TOTP applications:**
+
+* Select _Virtual MFA device_.
 * Use Google Authenticator app to scan the QR code, and enter the reponse code
 * then close and reopen the app and enter the second response code.
-* *using YubiKey untested - don't have Yubikey Authenticator set up*
+
+**For U2F Security Keys:**
+
+* Select _U2F security key_
+* Plug in your Yubikey
+* Touch the copper inset button on the Yubikey
 
 ## Securing your Laptop
 
